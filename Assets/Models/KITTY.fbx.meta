@@ -1,0 +1,3541 @@
+fileFormatVersion: 2
+guid: 1dddd9abfda49574085b7ed62af3d55a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 2331058893900490188
+    second: rig|Shader NodetreeAction
+  - first:
+      74: 1343013547007395148
+    second: rig|SLEEP
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: rig|Shader NodetreeAction
+      takeName: rig|Shader NodetreeAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|SLEEP
+      takeName: rig|SLEEP
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: KITTY(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: claws_back_L
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: claws_back_R
+      parentName: KITTY(Clone)
+      position: {x: 0.00004713619, y: 2.110415e-11, z: -0.000003296107}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: claws_front_L
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: claws_front_R
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: kissa_eye_L
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: kissa_eye_R
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: kissa_mesh
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: teeth_bottom
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: teeth_top
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: tongue
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: metarig
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: spine
+      parentName: metarig
+      position: {x: -0, y: 0.0014085051, z: 0.0025}
+      rotation: {x: 0.9853745, y: 0.00000004062711, z: -0.0000002349313, w: -0.17040263}
+      scale: {x: 1, y: 0.99999994, z: 0.9999988}
+    - name: tail.001
+      parentName: spine
+      position: {x: -2.1175822e-23, y: 7.4505804e-11, z: 0}
+      rotation: {x: 0.96787477, y: 0.00000005994624, z: -0.00000023075826, w: 0.25143284}
+      scale: {x: 1, y: 0.9999998, z: 0.99999875}
+    - name: tail.002
+      parentName: tail.001
+      position: {x: 8.8938457e-23, y: 0.0010661228, z: -7.4505804e-11}
+      rotation: {x: 0.06389406, y: -2.401835e-13, z: 2.961761e-14, w: 0.9979567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tail.003
+      parentName: tail.002
+      position: {x: -4.2389776e-25, y: 0.0010537596, z: -7.4505804e-11}
+      rotation: {x: 0.036929265, y: 5.305879e-19, z: -2.5100437e-20, w: 0.9993179}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: tail.004
+      parentName: tail.003
+      position: {x: -4.2409616e-24, y: 0.0010306643, z: 1.11758706e-10}
+      rotation: {x: 0.06572219, y: -1.0611521e-20, z: -3.3953846e-21, w: 0.99783796}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: tail.004_end
+      parentName: tail.004
+      position: {x: -0, y: 0.0010020145, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.001
+      parentName: spine
+      position: {x: -2.587891e-17, y: 0.00067893363, z: 7.4505804e-11}
+      rotation: {x: -0.14360224, y: 0.00000023596122, z: 0.0000000342353, w: 0.9896355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.002
+      parentName: spine.001
+      position: {x: 2.9953202e-21, y: 0.00058986864, z: 0}
+      rotation: {x: -0.04946941, y: -1.4420156e-11, z: -7.142705e-13, w: 0.99877566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: 7.837536e-25, y: 0.000693693, z: -3.4924594e-11}
+      rotation: {x: -0.017262006, y: -3.9980892e-16, z: -6.9048203e-18, w: 0.99985105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.004
+      parentName: spine.003
+      position: {x: 3.365239e-25, y: 0.0010613295, z: 2.7939677e-11}
+      rotation: {x: -0.07922079, y: 1.5325334e-20, z: -4.481716e-21, w: 0.9968571}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: spine.005
+      parentName: spine.004
+      position: {x: 1.0588058e-24, y: 0.00016977925, z: -1.4901161e-10}
+      rotation: {x: -0.07265965, y: 4.2463882e-21, z: -6.794224e-21, w: 0.99735683}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: spine.006
+      parentName: spine.005
+      position: {x: -0, y: 0.00013370141, z: -7.4505804e-11}
+      rotation: {x: -0.026186999, y: -2.3725059e-20, z: -6.778589e-21, w: 0.9996571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: face
+      parentName: spine.006
+      position: {x: 1.0587912e-24, y: 2.2351741e-10, z: 1.4901161e-10}
+      rotation: {x: -0.5375812, y: 2.6117817e-20, z: -8.036252e-21, w: 0.843212}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose
+      parentName: face
+      position: {x: -0, y: 0.000018000483, z: 0.00087392813}
+      rotation: {x: 0.9658384, y: 0.00023322954, z: 0.00086925493, w: 0.25914368}
+      scale: {x: 1, y: 1, z: 0.9999993}
+    - name: nose.001
+      parentName: nose
+      position: {x: 9.648315e-18, y: 0.00015093006, z: 2.9802322e-10}
+      rotation: {x: -0.09615229, y: -0.013486794, z: 0.0011298415, w: 0.9952746}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: nose.002
+      parentName: nose.001
+      position: {x: -2.3282966e-12, y: 0.00014591629, z: -1.4901161e-10}
+      rotation: {x: 0.5066311, y: 0.010905666, z: -0.006409285, w: 0.86207014}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: nose.003
+      parentName: nose.002
+      position: {x: 7.0256296e-18, y: 0.00007157728, z: 1.4901161e-10}
+      rotation: {x: 0.10987804, y: -0.0000000025723443, z: -0.000000024038608, w: 0.9939451}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.004
+      parentName: nose.003
+      position: {x: 7.702172e-18, y: 0.000037910937, z: -7.4505804e-11}
+      rotation: {x: 0.087301195, y: 1.6484386e-15, z: -0.000000020814202, w: 0.99618196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.004_end
+      parentName: nose.004
+      position: {x: -0, y: 0.0000433639, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.T.L
+      parentName: face
+      position: {x: -0, y: -0.0003689999, z: 0.0009566248}
+      rotation: {x: -0.65254444, y: 0.33485165, z: 0.37981358, w: 0.5637391}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: lip.T.L.001
+      parentName: lip.T.L
+      position: {x: -1.7462297e-11, y: 0.0001641158, z: -2.4447216e-10}
+      rotation: {x: 0.13501003, y: -0.006928597, z: -0.27424303, w: 0.9521109}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: lip.T.L.001_end
+      parentName: lip.T.L.001
+      position: {x: -0, y: 0.00035770322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.B.L
+      parentName: face
+      position: {x: -0, y: -0.00041999988, z: 0.0009426249}
+      rotation: {x: -0.6253071, y: 0.32047024, z: 0.33013842, w: 0.63031626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.B.L.001
+      parentName: lip.B.L
+      position: {x: -4.8894434e-11, y: 0.00012485194, z: 3.9872248e-11}
+      rotation: {x: 0.08318191, y: -0.10895351, z: -0.18082385, w: 0.9739162}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: lip.B.L.001_end
+      parentName: lip.B.L.001
+      position: {x: -0, y: 0.00037763722, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw
+      parentName: face
+      position: {x: -0, y: -0.0004300002, z: 0.0002659998}
+      rotation: {x: 0.73994774, y: -2.0471228e-21, z: -3.1245594e-20, w: 0.67266434}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: chin
+      parentName: jaw
+      position: {x: -0, y: 0.00039981, z: -1.6763806e-10}
+      rotation: {x: -0.011038899, y: -0.0000020263267, z: 0.000000022369786, w: 0.9999391}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin.001
+      parentName: chin
+      position: {x: 4.3597384e-16, y: 0.00018379165, z: 3.7252902e-11}
+      rotation: {x: -0.2780333, y: 0.0000017175345, z: 0.00000062970815, w: 0.96057147}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: chin.001_end
+      parentName: chin.001
+      position: {x: -0, y: 0.00010919196, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L
+      parentName: face
+      position: {x: -0.00036099998, y: 0.00021700066, z: 0.00041899984}
+      rotation: {x: 0.467311, y: 0.69705695, z: -0.16470185, w: 0.5182715}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: ear.L.001
+      parentName: ear.L
+      position: {x: 6.228219e-11, y: 0.00015252974, z: -1.5832484e-10}
+      rotation: {x: -0.55038124, y: -0.5481219, z: 0.3399482, w: 0.530168}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: ear.L.002
+      parentName: ear.L.001
+      position: {x: -4.4237822e-11, y: 0.00012830515, z: 2.561137e-11}
+      rotation: {x: 0.056977283, y: -0.2595339, z: 0.113435335, w: 0.9573548}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: ear.L.003
+      parentName: ear.L.002
+      position: {x: -0, y: 0.00024223268, z: 4.6566126e-11}
+      rotation: {x: 0.5339803, y: -0.038230542, z: 0.7322728, w: 0.4209277}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: ear.L.004 1
+      parentName: ear.L.003
+      position: {x: 1.11758706e-10, y: 0.00043056085, z: -3.7252902e-11}
+      rotation: {x: -0.47049844, y: 0.51204515, z: 0.6817573, w: 0.22726198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L.004_end
+      parentName: ear.L.004 1
+      position: {x: -0, y: 0.00017143118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R
+      parentName: face
+      position: {x: 0.00036099998, y: 0.00021700066, z: 0.00041899984}
+      rotation: {x: 0.467311, y: -0.69705695, z: 0.16470185, w: 0.5182715}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: ear.R.001
+      parentName: ear.R
+      position: {x: -6.228219e-11, y: 0.00015252974, z: -1.5832484e-10}
+      rotation: {x: -0.55038124, y: 0.5481219, z: -0.3399482, w: 0.530168}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: ear.R.002
+      parentName: ear.R.001
+      position: {x: 4.4237822e-11, y: 0.00012830515, z: 2.561137e-11}
+      rotation: {x: 0.056977283, y: 0.2595339, z: -0.113435335, w: 0.9573548}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: ear.R.003
+      parentName: ear.R.002
+      position: {x: -0, y: 0.00024223268, z: 4.6566126e-11}
+      rotation: {x: -0.5339803, y: -0.038230542, z: 0.7322728, w: -0.4209277}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: ear.R.004 1
+      parentName: ear.R.003
+      position: {x: -1.11758706e-10, y: 0.00043056085, z: -3.7252902e-11}
+      rotation: {x: 0.47049844, y: 0.51204515, z: 0.6817573, w: -0.22726198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R.004_end
+      parentName: ear.R.004 1
+      position: {x: -0, y: 0.00017143118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.T.R
+      parentName: face
+      position: {x: -0, y: -0.0003689999, z: 0.0009566248}
+      rotation: {x: -0.65254444, y: -0.33485165, z: -0.37981358, w: 0.5637391}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: lip.T.R.001
+      parentName: lip.T.R
+      position: {x: 1.7462297e-11, y: 0.0001641158, z: -2.4447216e-10}
+      rotation: {x: 0.13501003, y: 0.006928597, z: 0.27424303, w: 0.9521109}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: lip.T.R.001_end
+      parentName: lip.T.R.001
+      position: {x: -0, y: 0.00035770322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.B.R
+      parentName: face
+      position: {x: -0, y: -0.00041999988, z: 0.0009426249}
+      rotation: {x: -0.6253071, y: -0.32047024, z: -0.33013842, w: 0.63031626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.B.R.001
+      parentName: lip.B.R
+      position: {x: 4.8894434e-11, y: 0.00012485194, z: 3.9872248e-11}
+      rotation: {x: 0.08318191, y: 0.10895351, z: 0.18082385, w: 0.9739162}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: lip.B.R.001_end
+      parentName: lip.B.R.001
+      position: {x: -0, y: 0.00037763722, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.L
+      parentName: face
+      position: {x: -0.00045000002, y: -0.00006999978, z: 0.000612}
+      rotation: {x: 0.17637241, y: -0.29628184, z: -0.4091236, w: 0.8448241}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: brow.B.L.001
+      parentName: brow.B.L
+      position: {x: 1.4901161e-10, y: 0.00019428653, z: -4.6566126e-11}
+      rotation: {x: -0.20958555, y: -0.6264912, z: -0.16286333, w: 0.73284256}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: brow.B.L.002
+      parentName: brow.B.L.001
+      position: {x: -4.6566126e-11, y: 0.00011518612, z: 1.3038516e-10}
+      rotation: {x: -0.222513, y: -0.30308253, z: 0.031932905, w: 0.926072}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: brow.B.L.003
+      parentName: brow.B.L.002
+      position: {x: -4.0512532e-10, y: 0.00014267059, z: 2.0023434e-10}
+      rotation: {x: -0.13334617, y: -0.29806447, z: 0.50254005, w: 0.8005185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.L.003_end
+      parentName: brow.B.L.003
+      position: {x: -0, y: 0.00011540926, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lid.T.L
+      parentName: face
+      position: {x: -0.00034446517, y: -0.000026303713, z: 0.00072904053}
+      rotation: {x: 0.13946195, y: -0.43964115, z: -0.56211436, w: 0.68650824}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: lid.T.L.001
+      parentName: lid.T.L
+      position: {x: -2.561137e-11, y: 0.00008188771, z: -1.6763806e-10}
+      rotation: {x: -0.1793851, y: -0.5400421, z: 0.025986634, w: 0.82188827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lid.T.L.002
+      parentName: lid.T.L.001
+      position: {x: -4.1909514e-11, y: 0.000080223996, z: -1.04773785e-11}
+      rotation: {x: -0.1938351, y: -0.15120557, z: 0.24567194, w: 0.93766207}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: lid.T.L.003
+      parentName: lid.T.L.002
+      position: {x: 1.1976226e-10, y: 0.00007995116, z: 2.3283063e-11}
+      rotation: {x: -0.3292921, y: -0.2759953, z: 0.25529775, w: 0.8661503}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: lid.B.L
+      parentName: lid.T.L.003
+      position: {x: -8.381903e-11, y: 0.00008783888, z: -1.8626451e-11}
+      rotation: {x: -0.14665449, y: 0.683687, z: -0.6177498, w: -0.35979128}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: lid.B.L.001
+      parentName: lid.B.L
+      position: {x: -4.5634804e-10, y: 0.000046617257, z: -2.7939677e-11}
+      rotation: {x: 0.15620017, y: -0.060250834, z: -0.07633949, w: 0.9829261}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: lid.B.L.002
+      parentName: lid.B.L.001
+      position: {x: -1.4086253e-10, y: 0.000055317225, z: -1.3969838e-10}
+      rotation: {x: 0.22414973, y: -0.08180408, z: -0.1648969, w: 0.9570131}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: lid.B.L.003
+      parentName: lid.B.L.002
+      position: {x: -2.3283064e-10, y: 0.0000943643, z: 3.259629e-11}
+      rotation: {x: 0.2742626, y: -0.15383822, z: -0.24914557, w: 0.9159915}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: lid.B.L.003_end
+      parentName: lid.B.L.003
+      position: {x: -0, y: 0.000121252895, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.R
+      parentName: face
+      position: {x: 0.00045000002, y: -0.00006999978, z: 0.000612}
+      rotation: {x: 0.1918025, y: 0.2895045, z: 0.4449161, w: 0.825499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.R.001
+      parentName: brow.B.R
+      position: {x: 5.5879353e-11, y: 0.00018283851, z: 6.519258e-11}
+      rotation: {x: -0.20651302, y: 0.6317021, z: 0.15586749, w: 0.73076}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: brow.B.R.002
+      parentName: brow.B.R.001
+      position: {x: -1.8626451e-11, y: 0.00011444215, z: 1.44355e-10}
+      rotation: {x: -0.09030007, y: 0.13137153, z: 0.0040642726, w: 0.9872036}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: brow.B.R.003
+      parentName: brow.B.R.002
+      position: {x: 1.5832484e-10, y: 0.00013617579, z: 2.3283064e-10}
+      rotation: {x: -0.2905696, y: 0.3927819, z: -0.5177313, w: 0.7023148}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: brow.B.R.003_end
+      parentName: brow.B.R.003
+      position: {x: -0, y: 0.00011540926, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lid.T.R
+      parentName: face
+      position: {x: 0.00039799997, y: -0.0000489997, z: 0.0006649998}
+      rotation: {x: 0.13946106, y: 0.43964073, z: 0.5621143, w: 0.68650866}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: lid.T.R.001
+      parentName: lid.T.R
+      position: {x: -1.4377292e-10, y: 0.00010937106, z: -1.8626451e-11}
+      rotation: {x: -0.1793843, y: 0.54004216, z: -0.025985034, w: 0.82188845}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: lid.T.R.002
+      parentName: lid.T.R.001
+      position: {x: 1.9092113e-10, y: 0.00010714907, z: 2.6775523e-11}
+      rotation: {x: -0.19383454, y: 0.15120573, z: -0.24567212, w: 0.9376621}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: lid.T.R.003
+      parentName: lid.T.R.002
+      position: {x: -2.0096194e-10, y: 0.000106784784, z: -2.7939677e-11}
+      rotation: {x: -0.32929173, y: 0.2759951, z: -0.25529942, w: 0.86615}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: lid.B.R
+      parentName: lid.T.R.003
+      position: {x: 1.9092113e-10, y: 0.00011732021, z: 6.519258e-11}
+      rotation: {x: -0.17558981, y: -0.5934587, z: 0.71876377, w: -0.31678647}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: lid.B.R.001
+      parentName: lid.B.R
+      position: {x: 6.140908e-11, y: 0.00005496363, z: -1.6298145e-10}
+      rotation: {x: 0.03567217, y: 0.07721335, z: 0.09456596, w: 0.99187845}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: lid.B.R.002
+      parentName: lid.B.R.001
+      position: {x: 8.498318e-11, y: 0.000073123185, z: -1.3038516e-10}
+      rotation: {x: 0.20283808, y: 0.08547587, z: 0.16317324, w: 0.9617303}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: lid.B.R.003
+      parentName: lid.B.R.002
+      position: {x: -2.2351741e-10, y: 0.00012603575, z: -2.1420418e-10}
+      rotation: {x: 0.23079215, y: 0.14545639, z: 0.24561448, w: 0.93018866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lid.B.R.003_end
+      parentName: lid.B.R.003
+      position: {x: -0, y: 0.00014553002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forehead.L
+      parentName: face
+      position: {x: -0.000103, y: 0.00019326294, z: 0.00066538906}
+      rotation: {x: -0.62521124, y: 0.30947912, z: 0.6370303, w: -0.32791156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forehead.L.001
+      parentName: forehead.L
+      position: {x: 0.000020471043, y: -0.000049067876, z: 0.0001210761}
+      rotation: {x: 0.06162396, y: 0.17362359, z: 0.03666579, w: 0.98219806}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: forehead.L.002
+      parentName: forehead.L.001
+      position: {x: 0.000033719447, y: -0.000060513008, z: 0.00021042954}
+      rotation: {x: 0.011789985, y: 0.36105278, z: -0.10434422, w: 0.92661434}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: temple.L
+      parentName: forehead.L.002
+      position: {x: 0.00013536595, y: -0.0001109177, z: 0.0001757907}
+      rotation: {x: 0.371103, y: 0.22271363, z: -0.052139934, w: 0.89997923}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: jaw.L 1
+      parentName: temple.L
+      position: {x: 4.1909514e-11, y: 0.00024863065, z: -4.1909514e-11}
+      rotation: {x: -0.00097527937, y: 0.12825531, z: -0.24801862, w: 0.9602273}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jaw.L.001 1
+      parentName: jaw.L 1
+      position: {x: 3.7252902e-11, y: 0.0002243793, z: 1.4959368e-10}
+      rotation: {x: -0.42245317, y: 0.24449511, z: -0.30669254, w: 0.81712615}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: chin.L 1
+      parentName: jaw.L.001 1
+      position: {x: -2.0489097e-10, y: 0.00022344146, z: 1.3038516e-10}
+      rotation: {x: -0.68163705, y: -0.24032292, z: -0.31600466, w: 0.6146193}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: cheek.B.L
+      parentName: chin.L 1
+      position: {x: -7.4505804e-11, y: 0.0001058349, z: -2.3283063e-11}
+      rotation: {x: -0.19526075, y: 0.5243153, z: 0.073513485, w: 0.82556796}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: cheek.B.L.001 1
+      parentName: cheek.B.L
+      position: {x: -1.11758706e-10, y: 0.00020756442, z: -7.4505804e-11}
+      rotation: {x: 0.028636592, y: -0.3514394, z: -0.4040319, w: 0.8440549}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: brow.T.L 1
+      parentName: cheek.B.L.001 1
+      position: {x: -0, y: 0.00017023816, z: -3.5855918e-10}
+      rotation: {x: 0.6421173, y: -0.14920841, z: -0.31441906, w: 0.6830541}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: brow.T.L.001 1
+      parentName: brow.T.L 1
+      position: {x: -4.4237822e-11, y: 0.00021447863, z: -1.8626451e-11}
+      rotation: {x: -0.23470962, y: -0.7713174, z: -0.032145686, w: 0.5907178}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: brow.T.L.002 1
+      parentName: brow.T.L.001 1
+      position: {x: -5.5879353e-11, y: 0.00021615082, z: -8.381903e-11}
+      rotation: {x: -0.31085, y: -0.38210866, z: 0.079683244, w: 0.8666118}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: brow.T.L.003 1
+      parentName: brow.T.L.002 1
+      position: {x: -5.820766e-11, y: 0.00017109993, z: -8.381903e-11}
+      rotation: {x: -0.08646441, y: -0.1897095, z: 0.07975058, w: 0.97476876}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: brow.T.L.003_end
+      parentName: brow.T.L.003 1
+      position: {x: -0, y: 0.00012512929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forehead.R
+      parentName: face
+      position: {x: 0.000103, y: 0.00019326294, z: 0.00066538906}
+      rotation: {x: 0.62521124, y: 0.30947912, z: 0.6370303, w: 0.32791156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: forehead.R.001
+      parentName: forehead.R
+      position: {x: -0.000020471043, y: -0.000049067876, z: 0.0001210761}
+      rotation: {x: 0.06162396, y: -0.17362359, z: -0.03666579, w: 0.98219806}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: forehead.R.002
+      parentName: forehead.R.001
+      position: {x: -0.000033719447, y: -0.000060513008, z: 0.00021042954}
+      rotation: {x: 0.011789985, y: -0.36105278, z: 0.10434422, w: 0.92661434}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.9999999}
+    - name: temple.R
+      parentName: forehead.R.002
+      position: {x: -0.00013536595, y: -0.0001109177, z: 0.0001757907}
+      rotation: {x: 0.371103, y: -0.22271363, z: 0.052139934, w: 0.89997923}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: jaw.R 1
+      parentName: temple.R
+      position: {x: -4.1909514e-11, y: 0.00024863065, z: -4.1909514e-11}
+      rotation: {x: -0.00097527937, y: -0.12825531, z: 0.24801862, w: 0.9602273}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: jaw.R.001 1
+      parentName: jaw.R 1
+      position: {x: -3.7252902e-11, y: 0.0002243793, z: 1.4959368e-10}
+      rotation: {x: -0.42245317, y: -0.24449511, z: 0.30669254, w: 0.81712615}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: chin.R 1
+      parentName: jaw.R.001 1
+      position: {x: 2.0489097e-10, y: 0.00022344146, z: 1.3038516e-10}
+      rotation: {x: -0.68163705, y: 0.24032292, z: 0.31600466, w: 0.6146193}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: cheek.B.R
+      parentName: chin.R 1
+      position: {x: 7.4505804e-11, y: 0.0001058349, z: -2.3283063e-11}
+      rotation: {x: -0.19526075, y: -0.5243153, z: -0.073513485, w: 0.82556796}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: cheek.B.R.001 1
+      parentName: cheek.B.R
+      position: {x: 1.11758706e-10, y: 0.00020756442, z: -7.4505804e-11}
+      rotation: {x: 0.028636592, y: 0.3514394, z: 0.4040319, w: 0.8440549}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: brow.T.R 1
+      parentName: cheek.B.R.001 1
+      position: {x: -0, y: 0.00017023816, z: -3.5855918e-10}
+      rotation: {x: 0.6421173, y: 0.14920841, z: 0.31441906, w: 0.6830541}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: brow.T.R.001 1
+      parentName: brow.T.R 1
+      position: {x: 4.4237822e-11, y: 0.00021447863, z: -1.8626451e-11}
+      rotation: {x: -0.23470962, y: 0.7713174, z: 0.032145686, w: 0.5907178}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: brow.T.R.002 1
+      parentName: brow.T.R.001 1
+      position: {x: 5.5879353e-11, y: 0.00021615082, z: -8.381903e-11}
+      rotation: {x: -0.31085, y: 0.38210866, z: -0.079683244, w: 0.8666118}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: brow.T.R.003 1
+      parentName: brow.T.R.002 1
+      position: {x: 5.820766e-11, y: 0.00017109993, z: -8.381903e-11}
+      rotation: {x: -0.08646441, y: 0.1897095, z: -0.07975058, w: 0.97476876}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: brow.T.R.003_end
+      parentName: brow.T.R.003 1
+      position: {x: -0, y: 0.00012512929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye.L
+      parentName: face
+      position: {x: -0.00024203035, y: -0.000059999926, z: 0.0005809999}
+      rotation: {x: 0.00000006181724, y: 0.70710695, z: 0.70710665, w: -1.2044651e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye.L_end
+      parentName: eye.L
+      position: {x: -0, y: 0.00029699982, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye.R
+      parentName: face
+      position: {x: 0.00024203035, y: -0.000059999926, z: 0.0005809999}
+      rotation: {x: 0.00000006181724, y: 0.70710695, z: 0.70710665, w: -1.2044651e-14}
+      scale: {x: 1, y: 1, z: 1}
+    - name: eye.R_end
+      parentName: eye.R
+      position: {x: -0, y: 0.00029699982, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cheek.T.L
+      parentName: face
+      position: {x: -0.00045000002, y: -0.00006999978, z: 0.000612}
+      rotation: {x: 0.9085477, y: 0.33401856, z: 0.18675394, w: 0.16761759}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: cheek.T.L.001
+      parentName: cheek.T.L
+      position: {x: 3.7252902e-11, y: 0.00026086776, z: 1.3038516e-10}
+      rotation: {x: 0.3782115, y: 0.8652364, z: -0.24709201, w: 0.21741115}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: nose.L
+      parentName: cheek.T.L.001
+      position: {x: 1.8626451e-11, y: 0.00025197145, z: -1.3504177e-10}
+      rotation: {x: 0.2599843, y: 0.93235385, z: 0.040139273, w: 0.24801874}
+      scale: {x: 0.9999999, y: 0.9999995, z: 1}
+    - name: nose.L.001
+      parentName: nose.L
+      position: {x: 1.11758706e-10, y: 0.00013396445, z: 1.5250406e-10}
+      rotation: {x: 0.38743365, y: 0.88335514, z: -0.10147069, w: 0.24348015}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: nose.L.001_end
+      parentName: nose.L.001
+      position: {x: -0, y: 0.00008278657, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cheek.T.R
+      parentName: face
+      position: {x: 0.00045000002, y: -0.00006999978, z: 0.000612}
+      rotation: {x: 0.9085477, y: -0.33401856, z: -0.18675394, w: 0.16761759}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: cheek.T.R.001
+      parentName: cheek.T.R
+      position: {x: -3.7252902e-11, y: 0.00026086776, z: 1.3038516e-10}
+      rotation: {x: -0.3782115, y: 0.8652364, z: -0.24709201, w: -0.21741115}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: nose.R
+      parentName: cheek.T.R.001
+      position: {x: -1.8626451e-11, y: 0.00025197145, z: -1.3504177e-10}
+      rotation: {x: -0.2599843, y: 0.93235385, z: 0.040139273, w: -0.24801874}
+      scale: {x: 0.9999999, y: 0.9999995, z: 1}
+    - name: nose.R.001
+      parentName: nose.R
+      position: {x: -1.11758706e-10, y: 0.00013396445, z: 1.5250406e-10}
+      rotation: {x: -0.38743365, y: 0.88335514, z: -0.10147069, w: -0.24348015}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: nose.R.001_end
+      parentName: nose.R.001
+      position: {x: -0, y: 0.00008278657, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: teeth.T
+      parentName: face
+      position: {x: -1.2705493e-22, y: -0.0003574128, z: 0.00091805466}
+      rotation: {x: -0.6756963, y: -2.9921232e-19, z: -3.131757e-19, w: 0.7371802}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: teeth.T_end
+      parentName: teeth.T
+      position: {x: -0, y: 0.00030162482, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: teeth.B
+      parentName: face
+      position: {x: -8.8938457e-23, y: -0.00042968462, z: 0.0009130252}
+      rotation: {x: -0.680846, y: -2.1277959e-19, z: -2.303474e-19, w: 0.7324267}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: teeth.B_end
+      parentName: teeth.B
+      position: {x: -0, y: 0.00030062505, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue 1
+      parentName: face
+      position: {x: -1.7364175e-22, y: -0.00042919884, z: 0.00090990576}
+      rotation: {x: -0.6275964, y: -4.1122085e-19, z: -4.3014777e-19, w: 0.7785389}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue.001
+      parentName: tongue 1
+      position: {x: -1.06310475e-24, y: 0.00015266894, z: 1.11758706e-10}
+      rotation: {x: -0.06293107, y: -7.086643e-21, z: 1.656346e-19, w: 0.9980179}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: tongue.002
+      parentName: tongue.001
+      position: {x: -6.025736e-25, y: 0.00013016192, z: 0}
+      rotation: {x: -0.062359657, y: -8.1920745e-21, z: 1.0305042e-18, w: 0.9980537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tongue.002_end
+      parentName: tongue.002
+      position: {x: -0, y: 0.00013359821, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Breast.C
+      parentName: spine.003
+      position: {x: 7.0473536e-24, y: 0.00055890164, z: 0.0004311699}
+      rotation: {x: 0.6346377, y: 0.00000577938, z: 0.000004746074, w: 0.7728098}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Breast.C_end
+      parentName: Breast.C
+      position: {x: -0, y: 0.00042900397, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: spine.003
+      position: {x: -0.000110999994, y: 0.00051110925, z: -0.00017570694}
+      rotation: {x: -0.18776922, y: 0.8678341, z: 0.45958412, w: -0.019727275}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: 0.000032687927, y: 0.00068956485, z: -0.00014448118}
+      rotation: {x: -0.5124901, y: -0.16805515, z: 0.08460207, w: 0.8378269}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: 2.910383e-11, y: 0.0007935896, z: -1.80151e-11}
+      rotation: {x: 0.29760155, y: 0.002219993, z: -0.017734975, w: 0.95452285}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: 1.16415315e-11, y: 0.00090232096, z: -7.021299e-12}
+      rotation: {x: 0.29695123, y: 0.013040714, z: -0.020717163, w: 0.9545788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_toe.L
+      parentName: hand.L
+      position: {x: 4.6566128e-12, y: 0.00016226419, z: -7.285905e-11}
+      rotation: {x: 0.10538608, y: 0.007845023, z: -0.0062679797, w: 0.9943807}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: f_palm.004.L
+      parentName: f_toe.L
+      position: {x: 0.00006561358, y: 0.00001747089, z: -0.0000017148134}
+      rotation: {x: 0.26718518, y: 0.088740654, z: -0.22741371, w: 0.93221253}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: f_pinky.001.L
+      parentName: f_palm.004.L
+      position: {x: 0.000000015620225, y: 0.00002906879, z: -0.000026000025}
+      rotation: {x: -0.18790114, y: 0.9703224, z: -0.14464505, w: -0.04738712}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: f_pinky.002.L
+      parentName: f_pinky.001.L
+      position: {x: 2.3283063e-11, y: 0.000034263623, z: -2.7939677e-11}
+      rotation: {x: 0.15910666, y: -0.099965155, z: 0.01606599, w: 0.98205596}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: f_pinky.002.L_end
+      parentName: f_pinky.002.L
+      position: {x: -0, y: 0.00007588157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_palm.001.L
+      parentName: f_toe.L
+      position: {x: -0.00008414358, y: 0.000019650412, z: 0.000007401183}
+      rotation: {x: 0.28077656, y: -0.01908953, z: 0.14113107, w: 0.9491481}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: f_index.001.L
+      parentName: f_palm.001.L
+      position: {x: -0.000000009220107, y: 0.000055659522, z: -0.000023000013}
+      rotation: {x: 0.076544255, y: 0.977887, z: -0.19454247, w: 0.0055961343}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: f_index.002.L
+      parentName: f_index.001.L
+      position: {x: -2.2409949e-11, y: 0.000044788325, z: -5.3551046e-11}
+      rotation: {x: 0.06745545, y: -0.026613701, z: 0.0033371332, w: 0.9973617}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: f_index.002.L_end
+      parentName: f_index.002.L
+      position: {x: -0, y: 0.000064015716, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_palm.002.L
+      parentName: f_toe.L
+      position: {x: -0.000039822895, y: 0.000018633282, z: 0.000004465317}
+      rotation: {x: 0.007223271, y: 0.9595683, z: 0.2802955, w: -0.024718747}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: f_middle.001.L
+      parentName: f_palm.002.L
+      position: {x: -8.6514115e-11, y: 0.0000669997, z: -0.0000070000087}
+      rotation: {x: 0.1904407, y: -0.01757178, z: -0.0034114046, w: 0.9815355}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: f_middle.002.L
+      parentName: f_middle.001.L
+      position: {x: 3.4924596e-12, y: 0.000066850545, z: 1.3928911e-11}
+      rotation: {x: 0.072616234, y: -0.006225516, z: -0.0030552275, w: 0.99733585}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: f_middle.002.L_end
+      parentName: f_middle.002.L
+      position: {x: -0, y: 0.0001030776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_palm.003.L
+      parentName: f_toe.L
+      position: {x: 0.000028086872, y: 0.00001863318, z: 0.0000009635282}
+      rotation: {x: 0.2804682, y: 0.017784845, z: -0.0014776931, w: 0.9596974}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: f_ring.001.L
+      parentName: f_palm.003.L
+      position: {x: 0.00000007068709, y: 0.00006700754, z: 0.0000069996545}
+      rotation: {x: 0.0029515037, y: 0.9816026, z: -0.19058388, w: 0.011198106}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: f_ring.002.L
+      parentName: f_ring.001.L
+      position: {x: -3.2014214e-11, y: 0.00006685062, z: 4.0630537e-11}
+      rotation: {x: 0.07226831, y: -0.0061970646, z: -0.0030385284, w: 0.99736136}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: f_ring.002.L_end
+      parentName: f_ring.002.L
+      position: {x: -0, y: 0.0000972471, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: spine.003
+      position: {x: 0.000110999994, y: 0.00051110925, z: -0.00017570694}
+      rotation: {x: 0.18776922, y: 0.8678341, z: 0.45958412, w: 0.019727275}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: -0.000032687927, y: 0.00068956485, z: -0.00014448118}
+      rotation: {x: -0.5124901, y: 0.16805515, z: -0.08460207, w: 0.8378269}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: -2.910383e-11, y: 0.0007935896, z: -1.80151e-11}
+      rotation: {x: 0.29760155, y: -0.002219993, z: 0.017734975, w: 0.95452285}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: -1.16415315e-11, y: 0.00090232096, z: -7.021299e-12}
+      rotation: {x: 0.29695123, y: -0.013040714, z: 0.020717163, w: 0.9545788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_toe.R
+      parentName: hand.R
+      position: {x: -4.6566128e-12, y: 0.00016226419, z: -7.285905e-11}
+      rotation: {x: 0.10538608, y: -0.007845023, z: 0.0062679797, w: 0.9943807}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: f_palm.004.R
+      parentName: f_toe.R
+      position: {x: -0.00006561358, y: 0.00001747089, z: -0.0000017148134}
+      rotation: {x: 0.26718518, y: -0.088740654, z: 0.22741371, w: 0.93221253}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: f_pinky.001.R
+      parentName: f_palm.004.R
+      position: {x: -0.000000015620225, y: 0.00002906879, z: -0.000026000025}
+      rotation: {x: 0.18790114, y: 0.9703224, z: -0.14464505, w: 0.04738712}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: f_pinky.002.R
+      parentName: f_pinky.001.R
+      position: {x: -2.3283063e-11, y: 0.000034263623, z: -2.7939677e-11}
+      rotation: {x: 0.15910666, y: 0.099965155, z: -0.01606599, w: 0.98205596}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: f_pinky.002.R_end
+      parentName: f_pinky.002.R
+      position: {x: -0, y: 0.00007588157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_palm.001.R
+      parentName: f_toe.R
+      position: {x: 0.00008414358, y: 0.000019650412, z: 0.000007401183}
+      rotation: {x: 0.28077656, y: 0.01908953, z: -0.14113107, w: 0.9491481}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: f_index.001.R
+      parentName: f_palm.001.R
+      position: {x: 0.000000009220107, y: 0.000055659522, z: -0.000023000013}
+      rotation: {x: -0.076544255, y: 0.977887, z: -0.19454247, w: -0.0055961343}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: f_index.002.R
+      parentName: f_index.001.R
+      position: {x: 2.2409949e-11, y: 0.000044788325, z: -5.3551046e-11}
+      rotation: {x: 0.06745545, y: 0.026613701, z: -0.0033371332, w: 0.9973617}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: f_index.002.R_end
+      parentName: f_index.002.R
+      position: {x: -0, y: 0.000064015716, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_palm.002.R
+      parentName: f_toe.R
+      position: {x: 0.000039822895, y: 0.000018633282, z: 0.000004465317}
+      rotation: {x: -0.007223271, y: 0.9595683, z: 0.2802955, w: 0.024718747}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: f_middle.001.R
+      parentName: f_palm.002.R
+      position: {x: 8.6514115e-11, y: 0.0000669997, z: -0.0000070000087}
+      rotation: {x: 0.1904407, y: 0.01757178, z: 0.0034114046, w: 0.9815355}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: f_middle.002.R
+      parentName: f_middle.001.R
+      position: {x: -3.4924596e-12, y: 0.000066850545, z: 1.3928911e-11}
+      rotation: {x: 0.072616234, y: 0.006225516, z: 0.0030552275, w: 0.99733585}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: f_middle.002.R_end
+      parentName: f_middle.002.R
+      position: {x: -0, y: 0.0001030776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: f_palm.003.R
+      parentName: f_toe.R
+      position: {x: -0.000028086872, y: 0.00001863318, z: 0.0000009635282}
+      rotation: {x: 0.2804682, y: -0.017784845, z: 0.0014776931, w: 0.9596974}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: f_ring.001.R
+      parentName: f_palm.003.R
+      position: {x: -0.00000007068709, y: 0.00006700754, z: 0.0000069996545}
+      rotation: {x: -0.0029515037, y: 0.9816026, z: -0.19058388, w: -0.011198106}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: f_ring.002.R
+      parentName: f_ring.001.R
+      position: {x: 3.2014214e-11, y: 0.00006685062, z: 4.0630537e-11}
+      rotation: {x: 0.07226831, y: 0.0061970646, z: 0.0030385284, w: 0.99736136}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: f_ring.002.R_end
+      parentName: f_ring.002.R
+      position: {x: -0, y: 0.0000972471, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: belly.C
+      parentName: spine.002
+      position: {x: -3.8235635e-19, y: 0.00023987297, z: 0.0004781213}
+      rotation: {x: 0.722734, y: -0.0000050037415, z: -0.00000523258, w: 0.69112635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: belly.C_end
+      parentName: belly.C
+      position: {x: -0, y: 0.00044599993, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.L
+      parentName: spine
+      position: {x: -2.1175822e-23, y: 7.4505804e-11, z: 0}
+      rotation: {x: -0.3170893, y: -0.02448444, z: 0.33066183, w: 0.8885481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.L
+      parentName: pelvis.L
+      position: {x: 0.000027013253, y: 0.0004520262, z: 0.0002111842}
+      rotation: {x: 0.23552991, y: 0.58419704, z: 0.7429195, w: 0.22651732}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: shin.L
+      parentName: thigh.L
+      position: {x: 2.6775523e-11, y: 0.0008370911, z: -4.9476512e-12}
+      rotation: {x: -0.39969426, y: -0.020385481, z: 0.11696038, w: 0.9089275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: foot.L
+      parentName: shin.L
+      position: {x: 9.3132255e-12, y: 0.0010130538, z: -9.596988e-11}
+      rotation: {x: 0.46243355, y: -0.028652182, z: -0.022574982, w: 0.8859033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_toe.L
+      parentName: foot.L
+      position: {x: -4.6566128e-12, y: 0.00076352706, z: -3.245077e-11}
+      rotation: {x: 0.3920958, y: -0.011065416, z: -0.007299336, w: 0.9198289}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: r_palm.001.L
+      parentName: r_toe.L
+      position: {x: -0.0000730331, y: 0.000085179534, z: 0.0000021497397}
+      rotation: {x: 0.28471738, y: -0.019436827, z: 0.04426782, w: 0.95739156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_index.001.L
+      parentName: r_palm.001.L
+      position: {x: 0.000002973294, y: 0.000090087706, z: -0.000036004225}
+      rotation: {x: 0.07705387, y: 0.97713995, z: -0.18664242, w: -0.066519745}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: r_index.002.L
+      parentName: r_index.001.L
+      position: {x: 6.984919e-12, y: 0.00004535463, z: 2.3283063e-11}
+      rotation: {x: 0.074035384, y: -0.053243417, z: 0.015432169, w: 0.9957137}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: r_index.002.L_end
+      parentName: r_index.002.L
+      position: {x: -0, y: 0.00006289656, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_palm.002.L
+      parentName: r_toe.L
+      position: {x: 0.0000039676424, y: 0.00008434217, z: 0.0000025794152}
+      rotation: {x: 0.28430468, y: 0.024394821, z: -0.09960297, w: 0.95323396}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: r_middle.001.L
+      parentName: r_palm.002.L
+      position: {x: -0.000007366425, y: 0.00010070588, z: -0.0000060036973}
+      rotation: {x: 0.000103249324, y: 0.98187315, z: -0.18946339, w: -0.0053602457}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: r_middle.002.L
+      parentName: r_middle.001.L
+      position: {x: -2.0081643e-11, y: 0.00006719383, z: 2.3283063e-11}
+      rotation: {x: 0.07770608, y: 0.0011864328, z: 0.0031851293, w: 0.99697053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_middle.002.L_end
+      parentName: r_middle.002.L
+      position: {x: -0, y: 0.00010362908, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_palm.003.L
+      parentName: r_toe.L
+      position: {x: 0.00007006628, y: 0.00007178311, z: -0.0000047848725}
+      rotation: {x: 0.2844821, y: 0.021644853, z: -0.091251455, w: 0.95408314}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: r_ring.001.L
+      parentName: r_palm.003.L
+      position: {x: -0.000006764073, y: 0.00010160842, z: -0.0000060000316}
+      rotation: {x: 0.008727574, y: 0.9818329, z: -0.18940686, w: -0.0072797546}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: r_ring.002.L
+      parentName: r_ring.001.L
+      position: {x: -1.0913936e-11, y: 0.000067193716, z: 3.958121e-11}
+      rotation: {x: 0.07785549, y: -0.0000729657, z: 0.0035499297, w: 0.9969584}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: r_ring.002.L_end
+      parentName: r_ring.002.L
+      position: {x: -0, y: 0.0000977138, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_palm.004.L
+      parentName: r_toe.L
+      position: {x: 0.00012294255, y: 0.00006350672, z: -0.000009519794}
+      rotation: {x: 0.27197066, y: 0.08657572, z: -0.30785242, w: 0.90761423}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: r_pinky.001.L
+      parentName: r_palm.004.L
+      position: {x: -0.000021384942, y: 0.00005549778, z: -0.00004000861}
+      rotation: {x: -0.17209625, y: 0.9761092, z: -0.13263442, w: 0.0013695667}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: r_pinky.002.L
+      parentName: r_pinky.001.L
+      position: {x: 8.614734e-11, y: 0.000034713124, z: 0}
+      rotation: {x: 0.16013238, y: -0.019132625, z: -0.002655039, w: 0.9869066}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: r_pinky.002.L_end
+      parentName: r_pinky.002.L
+      position: {x: -0, y: 0.00007621676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.R
+      parentName: spine
+      position: {x: -2.1175822e-23, y: 7.4505804e-11, z: 0}
+      rotation: {x: -0.31708944, y: 0.024484834, z: -0.33066168, w: 0.8885481}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: thigh.R
+      parentName: pelvis.R
+      position: {x: -0.000027013346, y: 0.00045202635, z: 0.00021118412}
+      rotation: {x: -0.23553006, y: 0.58419687, z: 0.7429195, w: -0.2265175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shin.R
+      parentName: thigh.R
+      position: {x: 3.1432135e-11, y: 0.0008370911, z: 1.2863893e-10}
+      rotation: {x: -0.3996942, y: 0.020385318, z: -0.116960414, w: 0.9089275}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: foot.R
+      parentName: shin.R
+      position: {x: -4.6566128e-12, y: 0.001013054, z: 9.047653e-11}
+      rotation: {x: 0.46243355, y: 0.028652187, z: 0.022574987, w: 0.8859033}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: r_toe.R
+      parentName: foot.R
+      position: {x: -3.7252902e-11, y: 0.00076352723, z: -4.321919e-11}
+      rotation: {x: 0.3920958, y: 0.011065406, z: 0.0072993343, w: 0.9198289}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: r_palm.001.R
+      parentName: r_toe.R
+      position: {x: 0.0000730331, y: 0.00008517963, z: 0.0000021498718}
+      rotation: {x: 0.28471732, y: 0.01943684, z: -0.044267856, w: 0.95739156}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: r_index.001.R
+      parentName: r_palm.001.R
+      position: {x: -0.0000029733128, y: 0.0000900877, z: -0.000036004225}
+      rotation: {x: -0.07705389, y: 0.97713995, z: -0.18664242, w: 0.066519745}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: r_index.002.R
+      parentName: r_index.001.R
+      position: {x: -1.04773785e-11, y: 0.000045354478, z: 1.16415315e-11}
+      rotation: {x: 0.07403533, y: 0.0532434, z: -0.015432167, w: 0.9957137}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: r_index.002.R_end
+      parentName: r_index.002.R
+      position: {x: -0, y: 0.00006289656, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_palm.002.R
+      parentName: r_toe.R
+      position: {x: -0.0000039676256, y: 0.000084342275, z: 0.0000025795448}
+      rotation: {x: 0.2843045, y: -0.02439483, z: 0.099602945, w: 0.953234}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: r_middle.001.R
+      parentName: r_palm.002.R
+      position: {x: 0.000007366442, y: 0.00010070582, z: -0.000006003693}
+      rotation: {x: -0.00010328427, y: 0.9818732, z: -0.18946324, w: 0.0053602527}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: r_middle.002.R
+      parentName: r_middle.001.R
+      position: {x: 2.3646862e-11, y: 0.00006719381, z: -1.3969838e-11}
+      rotation: {x: 0.07770607, y: -0.0011864351, z: -0.0031851172, w: 0.99697053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_middle.002.R_end
+      parentName: r_middle.002.R
+      position: {x: -0, y: 0.00010362908, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_palm.003.R
+      parentName: r_toe.R
+      position: {x: -0.0000700663, y: 0.00007178323, z: -0.0000047847448}
+      rotation: {x: 0.28448188, y: -0.021644838, z: 0.09125139, w: 0.9540832}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: r_ring.001.R
+      parentName: r_palm.003.R
+      position: {x: 0.000006764035, y: 0.00010160839, z: -0.0000059999966}
+      rotation: {x: -0.008727609, y: 0.981833, z: -0.18940681, w: 0.007279761}
+      scale: {x: 1, y: 0.9999998, z: 1.0000001}
+    - name: r_ring.002.R
+      parentName: r_ring.001.R
+      position: {x: 1.4624675e-11, y: 0.00006719378, z: 0}
+      rotation: {x: 0.077855475, y: 0.00007295762, z: -0.0035499027, w: 0.9969584}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: r_ring.002.R_end
+      parentName: r_ring.002.R
+      position: {x: -0, y: 0.0000977138, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_palm.004.R
+      parentName: r_toe.R
+      position: {x: -0.00012294253, y: 0.000063506835, z: -0.000009519677}
+      rotation: {x: 0.27197063, y: -0.086575694, z: 0.30785233, w: 0.90761423}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: r_pinky.001.R
+      parentName: r_palm.004.R
+      position: {x: 0.00002138483, y: 0.000055497778, z: -0.000040008606}
+      rotation: {x: 0.17209622, y: 0.9761092, z: -0.13263439, w: -0.001369562}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: r_pinky.002.R
+      parentName: r_pinky.001.R
+      position: {x: -5.2386893e-12, y: 0.000034712986, z: 1.3969838e-11}
+      rotation: {x: 0.1601324, y: 0.019132612, z: 0.0026550232, w: 0.9869066}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: r_pinky.002.R_end
+      parentName: r_pinky.002.R
+      position: {x: -0, y: 0.00007621676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pelvis.C
+      parentName: spine
+      position: {x: -2.1175822e-23, y: 7.4505804e-11, z: 0}
+      rotation: {x: 0.5417625, y: 0.00000020039789, z: -0.00000012916594, w: 0.84053165}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: pelvis.C_end
+      parentName: pelvis.C
+      position: {x: -0, y: 0.0007756867, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig
+      parentName: KITTY(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root
+      parentName: rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999986, z: 0.9999986}
+    - name: DEF-spine
+      parentName: root
+      position: {x: 0.0015653212, y: 0.0015741216, z: 0.0006335742}
+      rotation: {x: 0.9853745, y: 0.000000041277552, z: -0.00000023161019, w: -0.1704027}
+      scale: {x: 1, y: 0.999997, z: 0.9999686}
+    - name: DEF-spine.001
+      parentName: DEF-spine
+      position: {x: -1.378579e-10, y: 0.0006789332, z: -1.11758706e-10}
+      rotation: {x: -0.14360222, y: 0.00000023228827, z: 0.0000000350494, w: 0.98963547}
+      scale: {x: 1.0119183, y: 0.9765932, z: 1.011915}
+    - name: DEF-spine.002
+      parentName: DEF-spine.001
+      position: {x: -9.3132255e-12, y: 0.00058986864, z: 1.0244548e-10}
+      rotation: {x: -0.049469445, y: -0.0000000021622386, z: 0.000000023293689, w: 0.99877566}
+      scale: {x: 0.9701584, y: 1.0628198, z: 0.9703865}
+    - name: DEF-spine.003
+      parentName: DEF-spine.002
+      position: {x: -3.7252902e-11, y: 0.00069369294, z: -4.6566126e-11}
+      rotation: {x: -0.017261922, y: -0.000000007542264, z: -0.000000017963846, w: 0.99985105}
+      scale: {x: 1.0431348, y: 0.91815066, z: 1.0453271}
+    - name: DEF-spine.004
+      parentName: DEF-spine.003
+      position: {x: 7.4505804e-11, y: 0.0010613295, z: 1.9324943e-10}
+      rotation: {x: -0.07922081, y: 0.000000008145309, z: -0.000000016381835, w: 0.9968571}
+      scale: {x: 1.0226043, y: 0.9518433, z: 1.0294174}
+    - name: DEF-spine.005
+      parentName: DEF-spine.004
+      position: {x: -3.259629e-11, y: 0.00016977928, z: 1.420267e-10}
+      rotation: {x: -0.072659604, y: -0.0000000073210846, z: 0.000000003763539, w: 0.99735683}
+      scale: {x: 0.99980897, y: 0.9605095, z: 1.037552}
+    - name: DEF-spine.006
+      parentName: DEF-spine.005
+      position: {x: 9.3132255e-12, y: 0.00013370119, z: -3.7252902e-11}
+      rotation: {x: -0.026187057, y: 0.000000006952192, z: -0.000000016018703, w: 0.9996571}
+      scale: {x: 0.9570631, y: 1.0571686, z: 0.9883991}
+    - name: DEF-spine.006_end
+      parentName: DEF-spine.006
+      position: {x: -0, y: 0.0008151423, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-torso.parent
+      parentName: rig
+      position: {x: -0, y: 0.0010887525, z: 0.002386}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999985, z: 0.9999986}
+    - name: torso
+      parentName: MCH-torso.parent
+      position: {x: 0.0014036502, y: 0.0001829674, z: -0.0017903704}
+      rotation: {x: -0, y: -0.000000011641532, z: -2.220446e-15, w: 1}
+      scale: {x: 0.9999998, y: 0.9999986, z: 0.9999988}
+    - name: MCH-spine.001
+      parentName: torso
+      position: {x: -8.411596e-12, y: -0.0009087526, z: -0.0001459999}
+      rotation: {x: 2.9059492e-30, y: 0.00000001164153, z: 2.220446e-15, w: 1}
+      scale: {x: 1.0000001, y: 0.99999833, z: 0.99999875}
+    - name: spine_fk.001
+      parentName: MCH-spine.001
+      position: {x: 0.00008343942, y: 0.0000061701608, z: 0.000005834633}
+      rotation: {x: 0.9996318, y: -4.1349374e-10, z: -0.000000011634631, w: -0.027135195}
+      scale: {x: 1.0000005, y: 1.0000023, z: 0.99998003}
+    - name: MCH-spine
+      parentName: spine_fk.001
+      position: {x: 5.4987e-11, y: -0.00058986875, z: -2.7939677e-11}
+      rotation: {x: -0.9996318, y: 4.134773e-10, z: 0.000000011634614, w: -0.02713609}
+      scale: {x: 1.0000002, y: 1.0000008, z: 0.99998736}
+    - name: spine_fk
+      parentName: MCH-spine
+      position: {x: -0.00015745377, y: -0.000023520835, z: 0.000028824386}
+      rotation: {x: 0.9853728, y: 0.000000041326455, z: -0.00000024343385, w: -0.17041291}
+      scale: {x: 1.000001, y: 0.99999446, z: 1.0000104}
+    - name: tweak_spine
+      parentName: spine_fk
+      position: {x: 7.176355e-11, y: -0.0006789361, z: -4.6566126e-11}
+      rotation: {x: -0.00000011920926, y: 0.00000002294117, z: -0.0000000049856284, w: 1}
+      scale: {x: 1.0000001, y: 1.0000015, z: 1.0000013}
+    - name: ORG-spine
+      parentName: tweak_spine
+      position: {x: 8.986323e-12, y: 8.8475643e-11, z: -4.6566126e-11}
+      rotation: {x: 0.48303118, y: 0.33342004, z: -0.0932393, w: 0.80425024}
+      scale: {x: 1.0000005, y: 0.999998, z: 0.9999969}
+    - name: ORG-pelvis.L
+      parentName: ORG-spine
+      position: {x: 8.986323e-12, y: 8.8475643e-11, z: -4.6566126e-11}
+      rotation: {x: -0.3171067, y: -0.024484491, z: 0.33066204, w: 0.8885417}
+      scale: {x: 0.99998, y: 0.99993306, z: 1.0000895}
+    - name: DEF-pelvis.L
+      parentName: ORG-pelvis.L
+      position: {x: -7.4505804e-11, y: 1.8626451e-11, z: -5.5879353e-11}
+      rotation: {x: -0.000000119209275, y: 0.000000912696, z: -0.000000032130625, w: 1}
+      scale: {x: 1.0000011, y: 1.000001, z: 1.0000005}
+    - name: DEF-pelvis.L_end
+      parentName: DEF-pelvis.L
+      position: {x: -0, y: 0.00056667655, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-thigh.L
+      parentName: ORG-pelvis.L
+      position: {x: 0.000027013606, y: 0.00045202332, z: 0.00021119046}
+      rotation: {x: 0.49051434, y: -0.2023423, z: -0.089411885, w: 0.8428872}
+      scale: {x: 1.001065, y: 0.99792355, z: 1.0010626}
+    - name: DEF-thigh.L.001
+      parentName: DEF-thigh.L
+      position: {x: 9.313225e-11, y: 0.00041856008, z: -8.381903e-11}
+      rotation: {x: 0.000000029802319, y: 0.00000002235174, z: 0.00000008940696, w: 1}
+      scale: {x: 0.9999991, y: 0.99999744, z: 1.0000005}
+    - name: DEF-shin.L
+      parentName: DEF-thigh.L.001
+      position: {x: 1.3969838e-11, y: 0.00041855976, z: 1.16415315e-11}
+      rotation: {x: 0.074173234, y: 0.8308679, z: -0.54508555, w: 0.083897024}
+      scale: {x: 0.9996152, y: 0.99910367, z: 1.001287}
+    - name: DEF-shin.L.001
+      parentName: DEF-shin.L
+      position: {x: 2.3283063e-11, y: 0.0005065364, z: 7.4505804e-11}
+      rotation: {x: 0.0000001490116, y: -0.00000005759943, z: 0.00000012472407, w: 1}
+      scale: {x: 1.0000007, y: 0.9999995, z: 0.9999971}
+    - name: DEF-foot.L
+      parentName: DEF-shin.L.001
+      position: {x: -1.11758706e-10, y: 0.00050653634, z: 3.259629e-11}
+      rotation: {x: -0.4507915, y: -0.053766843, z: -0.105521135, w: 0.8847381}
+      scale: {x: 1.0001193, y: 1.0140129, z: 0.98608106}
+    - name: DEF-foot.L.001
+      parentName: DEF-foot.L
+      position: {x: -1.0882104e-11, y: 0.00038177666, z: -1.7033926e-10}
+      rotation: {x: 0.000000029802312, y: -0.000000007450578, z: 0.000000027939667, w: 1}
+      scale: {x: 0.9999996, y: 1.0000068, z: 1.000002}
+    - name: DEF-r_toe.L
+      parentName: DEF-foot.L.001
+      position: {x: 1.3969838e-11, y: 0.0003817765, z: -5.3551046e-11}
+      rotation: {x: -0.38942385, y: -0.11534672, z: -0.046189677, w: 0.91263944}
+      scale: {x: 0.99843943, y: 0.9863366, z: 1.0154563}
+    - name: ORG-r_palm.001.L
+      parentName: DEF-r_toe.L
+      position: {x: 0.00007306324, y: 0.0000851801, z: -0.00000047149078}
+      rotation: {x: 0.047535293, y: 0.9571017, z: -0.2842017, w: 0.03043351}
+      scale: {x: 1.003877, y: 1.0568904, z: 0.9433748}
+    - name: DEF-r_index.001.L
+      parentName: ORG-r_palm.001.L
+      position: {x: 0.0000029732053, y: 0.000090087866, z: -0.000036005596}
+      rotation: {x: -0.052313462, y: -0.977549, z: 0.19503859, w: -0.060177878}
+      scale: {x: 0.99592143, y: 1.0316348, z: 0.97259}
+    - name: DEF-r_index.002.L
+      parentName: DEF-r_index.001.L
+      position: {x: -8.731149e-13, y: 0.000045354584, z: -9.0221875e-12}
+      rotation: {x: 0.075627714, y: -0.0000065341583, z: -0.00000027567145, w: 0.9971361}
+      scale: {x: 1.0000017, y: 1.0346373, z: 0.96460867}
+    - name: DEF-r_index.002.L_end
+      parentName: DEF-r_index.002.L
+      position: {x: -0, y: 0.00006289656, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.001.L
+      parentName: ORG-r_palm.001.L
+      position: {x: -4.6566126e-11, y: -4.6566128e-12, z: -5.820766e-11}
+      rotation: {x: 0.00000014889517, y: 0.00000058487046, z: -0.00000014901158, w: 1}
+      scale: {x: 1.0000018, y: 0.9999998, z: 0.99999946}
+    - name: DEF-r_palm.001.L_end
+      parentName: DEF-r_palm.001.L
+      position: {x: -0, y: 0.000056222685, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-r_palm.002.L
+      parentName: DEF-r_toe.L
+      position: {x: -0.000003907387, y: 0.00008434274, z: -0.0000026696605}
+      rotation: {x: -0.09633004, y: 0.9534479, z: -0.2854415, w: -0.013445331}
+      scale: {x: 0.99666333, y: 1.0646042, z: 0.9433734}
+    - name: DEF-r_middle.001.L
+      parentName: ORG-r_palm.002.L
+      position: {x: -0.000007366454, y: 0.00010070571, z: -0.000006003936}
+      rotation: {x: 0.0036609615, y: -0.9817837, z: 0.18943907, w: -0.014148306}
+      scale: {x: 1.0002015, y: 1.0262904, z: 0.9734425}
+    - name: DEF-r_middle.002.L
+      parentName: DEF-r_middle.001.L
+      position: {x: -1.16415315e-11, y: 0.0000671941, z: -1.5133991e-10}
+      rotation: {x: 0.07777218, y: -0.000015915368, z: 0.0000016517002, w: 0.9969712}
+      scale: {x: 1.0000027, y: 1.0368816, z: 0.962374}
+    - name: DEF-r_middle.002.L_end
+      parentName: DEF-r_middle.002.L
+      position: {x: -0, y: 0.00010362908, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.002.L
+      parentName: ORG-r_palm.002.L
+      position: {x: -4.1909514e-11, y: -1.2805686e-10, z: -6.7520885e-11}
+      rotation: {x: 0.000000020256264, y: -0.0000005271285, z: -0.00000004470348, w: 1}
+      scale: {x: 1.0000006, y: 0.9999993, z: 1.0000004}
+    - name: DEF-r_palm.002.L_end
+      parentName: DEF-r_palm.002.L
+      position: {x: -0, y: 0.00006649047, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-r_palm.003.L
+      parentName: DEF-r_toe.L
+      position: {x: -0.00007015772, y: 0.00007178391, z: 0.0000031743407}
+      rotation: {x: -0.08797716, y: 0.9542655, z: -0.28552294, w: -0.010685771}
+      scale: {x: 0.9967727, y: 1.0644889, z: 0.943381}
+    - name: DEF-r_ring.001.L
+      parentName: ORG-r_palm.003.L
+      position: {x: -0.0000067639676, y: 0.000101608355, z: -0.0000060000502}
+      rotation: {x: -0.0044041346, y: -0.9817414, z: 0.18956754, w: -0.015120873}
+      scale: {x: 1.0002991, y: 1.0262681, z: 0.97337615}
+    - name: DEF-r_ring.002.L
+      parentName: DEF-r_ring.001.L
+      position: {x: -1.3969838e-11, y: 0.00006719404, z: 1.1874363e-10}
+      rotation: {x: 0.077937566, y: -0.0000030351798, z: 0.00000018812713, w: 0.9969583}
+      scale: {x: 1.0000006, y: 1.0369536, z: 0.9622997}
+    - name: DEF-r_ring.002.L_end
+      parentName: DEF-r_ring.002.L
+      position: {x: -0, y: 0.0000977138, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.003.L
+      parentName: ORG-r_palm.003.L
+      position: {x: 5.122274e-11, y: -7.5669956e-11, z: 9.778887e-11}
+      rotation: {x: -0.000000019615976, y: -0.00000044889737, z: 0.00000007450579, w: 1}
+      scale: {x: 0.9999975, y: 1.000001, z: 0.99999857}
+    - name: DEF-r_palm.003.L_end
+      parentName: DEF-r_palm.003.L
+      position: {x: -0, y: 0.0000672682, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-r_palm.004.L
+      parentName: DEF-r_toe.L
+      position: {x: -0.00012312876, y: 0.00006350755, z: 0.0000066937273}
+      rotation: {x: -0.3047061, y: 0.9085454, z: -0.27550068, w: -0.07615006}
+      scale: {x: 1.0069093, y: 1.0536401, z: 0.94336677}
+    - name: DEF-r_pinky.001.L
+      parentName: ORG-r_palm.004.L
+      position: {x: -0.0000213846, y: 0.000055497687, z: -0.000040010116}
+      rotation: {x: 0.17226401, y: -0.9761056, z: 0.13242425, w: -0.002613451}
+      scale: {x: 0.97923386, y: 1.0384693, z: 0.98273504}
+    - name: DEF-r_pinky.002.L
+      parentName: DEF-r_pinky.001.L
+      position: {x: -2.561137e-11, y: 0.000034713154, z: 6.0535965e-11}
+      rotation: {x: 0.160158, y: -0.00012786311, z: 0.00002202391, w: 0.98709136}
+      scale: {x: 0.9999925, y: 1.0531895, z: 0.9472173}
+    - name: DEF-r_pinky.002.L_end
+      parentName: DEF-r_pinky.002.L
+      position: {x: -0, y: 0.00007621676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.004.L
+      parentName: ORG-r_palm.004.L
+      position: {x: 8.381903e-11, y: 2.7939677e-11, z: 1.3969838e-11}
+      rotation: {x: -0.00000008754432, y: -0.0000030472875, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999993, z: 1.0000004}
+    - name: DEF-r_palm.004.L_end
+      parentName: DEF-r_palm.004.L
+      position: {x: -0, y: 0.000027802665, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-pelvis.R
+      parentName: ORG-spine
+      position: {x: 8.986323e-12, y: 8.8475643e-11, z: -4.6566126e-11}
+      rotation: {x: -0.3171069, y: 0.024484925, z: -0.3306619, w: 0.88854176}
+      scale: {x: 0.9999803, y: 0.999932, z: 1.00009}
+    - name: DEF-pelvis.R
+      parentName: ORG-pelvis.R
+      position: {x: -1.11758706e-10, y: 2.2351741e-10, z: -2.0256266e-10}
+      rotation: {x: 0.000000059604638, y: -0.00000088103104, z: 0.00000007776543, w: 1}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000011}
+    - name: DEF-pelvis.R_end
+      parentName: DEF-pelvis.R
+      position: {x: -0, y: 0.00056667655, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-thigh.R
+      parentName: ORG-pelvis.R
+      position: {x: -0.000027013755, y: 0.00045202358, z: 0.0002111905}
+      rotation: {x: 0.76734537, y: 0.1481835, z: 0.136375, w: 0.6087895}
+      scale: {x: 1.0055248, y: 0.9890723, z: 1.0055432}
+    - name: DEF-thigh.R.001
+      parentName: DEF-thigh.R
+      position: {x: -1.6298145e-11, y: 0.00041855997, z: 6.7520885e-11}
+      rotation: {x: 0.00000020861619, y: -0.00000014901156, z: -0.000000111758666, w: 1}
+      scale: {x: 1.0000002, y: 0.99999875, z: 0.99999636}
+    - name: DEF-shin.R
+      parentName: DEF-thigh.R.001
+      position: {x: 9.3132255e-12, y: 0.00041855985, z: -3.085006e-11}
+      rotation: {x: 0.41644722, y: -0.00000009737976, z: 0.0000000693534, w: 0.90915996}
+      scale: {x: 1.0014046, y: 0.9879979, z: 1.0107888}
+    - name: DEF-shin.R.001
+      parentName: DEF-shin.R
+      position: {x: -1.8626451e-11, y: 0.0005065365, z: 8.381903e-11}
+      rotation: {x: 0.00000005960463, y: -0.0000000062055734, z: -0.000000013547542, w: 1}
+      scale: {x: 1.0000077, y: 1.0000027, z: 0.99999505}
+    - name: DEF-foot.R
+      parentName: DEF-shin.R.001
+      position: {x: -1.5133991e-11, y: 0.0005065365, z: -1.3969838e-11}
+      rotation: {x: -0.4507913, y: 0.053766973, z: 0.105521016, w: 0.88473815}
+      scale: {x: 0.99787205, y: 1.0758276, z: 0.93172354}
+    - name: DEF-foot.R.001
+      parentName: DEF-foot.R
+      position: {x: -9.778887e-11, y: 0.00038177654, z: 1.5832484e-10}
+      rotation: {x: -0.00000020861621, y: -0.00000011920926, z: 0.000000078231075, w: 1}
+      scale: {x: 1.0000036, y: 0.9999995, z: 0.9999983}
+    - name: DEF-r_toe.R
+      parentName: DEF-foot.R.001
+      position: {x: -3.0267983e-11, y: 0.00038177666, z: -3.259629e-11}
+      rotation: {x: -0.38942426, y: 0.11534743, z: 0.046189185, w: 0.9126392}
+      scale: {x: 0.9865459, y: 0.8894648, z: 1.1409754}
+    - name: ORG-r_palm.001.R
+      parentName: DEF-r_toe.R
+      position: {x: -0.00007306314, y: 0.000085180225, z: -0.00000047174282}
+      rotation: {x: -0.047535192, y: 0.9571019, z: -0.28420123, w: -0.030432656}
+      scale: {x: 1.0183142, y: 1.3632761, z: 0.7441006}
+    - name: DEF-r_index.001.R
+      parentName: ORG-r_palm.001.R
+      position: {x: -0.000002973266, y: 0.00009008796, z: -0.000036005527}
+      rotation: {x: 0.05231341, y: -0.97754896, z: 0.19503845, w: 0.060177967}
+      scale: {x: 0.9789639, y: 1.3369155, z: 0.7418235}
+    - name: DEF-r_index.002.R
+      parentName: DEF-r_index.001.R
+      position: {x: -5.8207657e-12, y: 0.000045354554, z: -4.1909514e-11}
+      rotation: {x: 0.07562766, y: 0.0000063776947, z: 0.00000028312195, w: 0.9971362}
+      scale: {x: 1.0000005, y: 1.1991638, z: 0.7621712}
+    - name: DEF-r_index.002.R_end
+      parentName: DEF-r_index.002.R
+      position: {x: -0, y: 0.00006289656, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.001.R
+      parentName: ORG-r_palm.001.R
+      position: {x: -2.6775523e-11, y: -2.3283063e-11, z: 2.3283064e-12}
+      rotation: {x: 0.0000003546009, y: -0.0000005047766, z: 0.000000096857505, w: 1}
+      scale: {x: 1.0000025, y: 1.0000017, z: 1.0000013}
+    - name: DEF-r_palm.001.R_end
+      parentName: DEF-r_palm.001.R
+      position: {x: -0, y: 0.000056222685, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-r_palm.002.R
+      parentName: DEF-r_toe.R
+      position: {x: 0.0000039074826, y: 0.00008434301, z: -0.0000026701157}
+      rotation: {x: 0.09633003, y: 0.953448, z: -0.285441, w: 0.013446161}
+      scale: {x: 0.9873425, y: 1.4081893, z: 0.74411196}
+    - name: DEF-r_middle.001.R
+      parentName: ORG-r_palm.002.R
+      position: {x: 0.0000073664332, y: 0.000100705816, z: -0.000006003876}
+      rotation: {x: -0.0036610053, y: -0.98178375, z: 0.18943876, w: 0.014148454}
+      scale: {x: 1.0020325, y: 1.2999606, z: 0.74336714}
+    - name: DEF-r_middle.002.R
+      parentName: DEF-r_middle.001.R
+      position: {x: 1.5133991e-11, y: 0.00006719416, z: 1.9790605e-11}
+      rotation: {x: 0.07777247, y: 0.00001583062, z: -0.0000015732364, w: 0.9969712}
+      scale: {x: 1.0000011, y: 1.2083113, z: 0.7529816}
+    - name: DEF-r_middle.002.R_end
+      parentName: DEF-r_middle.002.R
+      position: {x: -0, y: 0.00010362908, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.002.R
+      parentName: ORG-r_palm.002.R
+      position: {x: -5.8207657e-12, y: -1.0390067e-10, z: 1.5133991e-11}
+      rotation: {x: 0.000000057276324, y: 0.0000005941837, z: -0, w: 1}
+      scale: {x: 1.0000045, y: 1.0000033, z: 1.0000021}
+    - name: DEF-r_palm.002.R_end
+      parentName: DEF-r_palm.002.R
+      position: {x: -0, y: 0.00006649047, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-r_palm.003.R
+      parentName: DEF-r_toe.R
+      position: {x: 0.000070157825, y: 0.000071784, z: 0.0000031741533}
+      rotation: {x: 0.08797718, y: 0.9542656, z: -0.28552252, w: 0.010686449}
+      scale: {x: 0.9874684, y: 1.4080287, z: 0.7441336}
+    - name: DEF-r_ring.001.R
+      parentName: ORG-r_palm.003.R
+      position: {x: 0.000006763999, y: 0.00010160836, z: -0.000006000142}
+      rotation: {x: 0.004404118, y: -0.9817413, z: 0.18956769, w: 0.015120835}
+      scale: {x: 1.0036207, y: 1.2990485, z: 0.74277335}
+    - name: DEF-r_ring.002.R
+      parentName: DEF-r_ring.001.R
+      position: {x: 2.3283063e-11, y: 0.00006719405, z: 5.0058586e-11}
+      rotation: {x: 0.077937484, y: 0.000003022141, z: -0.00000019045542, w: 0.99695826}
+      scale: {x: 1.0000013, y: 1.2090111, z: 0.75247216}
+    - name: DEF-r_ring.002.R_end
+      parentName: DEF-r_ring.002.R
+      position: {x: -0, y: 0.0000977138, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.003.R
+      parentName: ORG-r_palm.003.R
+      position: {x: -1.7462298e-12, y: -1.535227e-11, z: 5.2386893e-11}
+      rotation: {x: 0.000000008440108, y: 0.00000042840824, z: -0.000000052154046, w: 1}
+      scale: {x: 1.0000069, y: 1.0000019, z: 1.0000032}
+    - name: DEF-r_palm.003.R_end
+      parentName: DEF-r_palm.003.R
+      position: {x: -0, y: 0.0000672682, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-r_palm.004.R
+      parentName: DEF-r_toe.R
+      position: {x: 0.00012312889, y: 0.00006350762, z: 0.0000066934144}
+      rotation: {x: 0.30470592, y: 0.9085456, z: -0.27549994, w: 0.076150775}
+      scale: {x: 1.0517843, y: 1.3158454, z: 0.7440803}
+    - name: DEF-r_pinky.001.R
+      parentName: ORG-r_palm.004.R
+      position: {x: 0.000021384609, y: 0.000055497727, z: -0.000040010087}
+      rotation: {x: -0.17226367, y: -0.9761057, z: 0.13242398, w: 0.0026133275}
+      scale: {x: 0.87620384, y: 1.3500155, z: 0.82456565}
+    - name: DEF-r_pinky.002.R
+      parentName: DEF-r_pinky.001.R
+      position: {x: -1.1641532e-12, y: 0.000034713095, z: 3.885361e-11}
+      rotation: {x: 0.16015786, y: 0.00012793948, z: -0.000022083515, w: 0.9870915}
+      scale: {x: 0.9999914, y: 1.3670863, z: 0.6624952}
+    - name: DEF-r_pinky.002.R_end
+      parentName: DEF-r_pinky.002.R
+      position: {x: -0, y: 0.00007621676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-r_palm.004.R
+      parentName: ORG-r_palm.004.R
+      position: {x: 2.7939677e-11, y: 5.122274e-11, z: -2.3283064e-12}
+      rotation: {x: 0.00000015646215, y: 0.0000029802316, z: -0, w: 1}
+      scale: {x: 1.0000043, y: 1.0000019, z: 0.99999946}
+    - name: DEF-r_palm.004.R_end
+      parentName: DEF-r_palm.004.R
+      position: {x: -0, y: 0.000027802665, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-pelvis.C
+      parentName: ORG-spine
+      position: {x: 8.986323e-12, y: 8.8475643e-11, z: -4.6566126e-11}
+      rotation: {x: 0.5417546, y: 0.0000002114555, z: -0.00000014576769, w: 0.8405368}
+      scale: {x: 1.0000004, y: 1.0000831, z: 0.9999309}
+    - name: DEF-pelvis.C
+      parentName: ORG-pelvis.C
+      position: {x: -1.0296229e-10, y: 9.3132255e-12, z: -5.820766e-11}
+      rotation: {x: -0.000000029802315, y: -0.0000000010717824, z: 0.0000000115925305, w: 1}
+      scale: {x: 0.9999999, y: 1.0000013, z: 1.0000012}
+    - name: DEF-pelvis.C_end
+      parentName: DEF-pelvis.C
+      position: {x: -0, y: 0.0007756867, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-ROT-tail
+      parentName: tweak_spine
+      position: {x: 8.986323e-12, y: 8.8475643e-11, z: -4.6566126e-11}
+      rotation: {x: -0.98537266, y: -0.000000042329575, z: 0.00000021997856, w: -0.17041339}
+      scale: {x: 1.0000002, y: 0.9999334, z: 1.0000578}
+    - name: tail.001 1
+      parentName: MCH-ROT-tail
+      position: {x: 1.6860587e-10, y: 4.8954545e-11, z: 1.2963168e-10}
+      rotation: {x: -0.08283261, y: -0.00000001740228, z: -0.0000000014467714, w: 0.99656355}
+      scale: {x: 0.99999905, y: 0.9999879, z: 1.0000219}
+    - name: tail.002 1
+      parentName: tail.001 1
+      position: {x: -1.3038516e-10, y: 0.0010661248, z: 1.4901161e-10}
+      rotation: {x: 0.063898444, y: -0.00000003013723, z: 0.0000000086200975, w: 0.99795645}
+      scale: {x: 0.99999845, y: 1.0000211, z: 0.9999811}
+    - name: tail.003 1
+      parentName: tail.002 1
+      position: {x: 3.655441e-10, y: 0.0010537598, z: -2.4680047e-10}
+      rotation: {x: 0.03693211, y: -3.5527128e-15, z: -7.32747e-15, w: 0.99931777}
+      scale: {x: 0.9999976, y: 1.0000004, z: 1.0000007}
+    - name: tail.004 1
+      parentName: tail.003 1
+      position: {x: -7.4505804e-11, y: 0.0010306643, z: 4.6566126e-11}
+      rotation: {x: 0.065726854, y: -0.000000017638017, z: 0.000000013501656, w: 0.99783766}
+      scale: {x: 0.9999983, y: 0.99999034, z: 1.0000126}
+    - name: tweak_tail.004
+      parentName: tail.004 1
+      position: {x: 7.4505804e-11, y: 0.0010020155, z: -9.3132255e-12}
+      rotation: {x: -0.000000007450578, y: 0.000000007630523, z: -0.00000003670992, w: 1}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000005}
+    - name: ORG-tail.004
+      parentName: tweak_tail.004
+      position: {x: -2.0489097e-10, y: 3.958121e-11, z: 9.3132255e-12}
+      rotation: {x: 1, y: 0.000000033738775, z: -0.00000000994622, w: -0.00000005960463}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000006}
+    - name: DEF-tail.004
+      parentName: ORG-tail.004
+      position: {x: -7.4505804e-11, y: -6.635673e-11, z: 0}
+      rotation: {x: -0.00000008940695, y: -0.000000035903422, z: 0.00000001787574, w: 1}
+      scale: {x: 1.0000005, y: 1.0000025, z: 1.0000024}
+    - name: DEF-tail.003
+      parentName: DEF-tail.004
+      position: {x: -1.0244548e-10, y: 0.0010020154, z: 5.5879353e-11}
+      rotation: {x: -0.06572682, y: -0.000000018446972, z: 0.000000025286154, w: 0.99783766}
+      scale: {x: 1.0000043, y: 1.0000223, z: 0.9999781}
+    - name: DEF-tail.002
+      parentName: DEF-tail.003
+      position: {x: 1.862645e-10, y: 0.0010306647, z: 1.9557773e-10}
+      rotation: {x: -0.03693212, y: 0.000000058216656, z: -0.000000008670971, w: 0.99931777}
+      scale: {x: 0.9999996, y: 1.0000001, z: 0.99999976}
+    - name: DEF-tail.001
+      parentName: DEF-tail.002
+      position: {x: -2.7939677e-11, y: 0.00105376, z: -1.6763806e-10}
+      rotation: {x: -0.06389867, y: -0.000000048397254, z: 0.000000015529306, w: 0.9979564}
+      scale: {x: 0.9999961, y: 1.0000104, z: 0.9999987}
+    - name: DEF-tail.001_end
+      parentName: DEF-tail.001
+      position: {x: -0, y: 0.0010661227, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-spine.002
+      parentName: torso
+      position: {x: -0.00008985043, y: -0.0009087526, z: -0.00013786185}
+      rotation: {x: -6.462347e-23, y: 0.000000011641532, z: -3.3306682e-15, w: 1}
+      scale: {x: 1.0000001, y: 0.9999986, z: 0.99999875}
+    - name: spine_fk.002
+      parentName: MCH-spine.002
+      position: {x: 4.6566128e-12, y: -1.11758706e-10, z: 4.6566128e-12}
+      rotation: {x: 0.84954834, y: 0.0014612937, z: -0.065372, w: 0.5234425}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000896}
+    - name: MCH-pivot
+      parentName: spine_fk.002
+      position: {x: 0.00008323712, y: -0.000004158395, z: 0.000023924207}
+      rotation: {x: 0.049460553, y: 0.0000000014555371, z: 6.080367e-11, w: 0.99877614}
+      scale: {x: 0.9999999, y: 1.000002, z: 0.9999477}
+    - name: tweak_spine.002
+      parentName: MCH-pivot
+      position: {x: 3.9534945e-11, y: -1.094304e-10, z: -1.816079e-10}
+      rotation: {x: -0.049460553, y: -0.000000008730815, z: 9.137338e-11, w: 0.99877614}
+      scale: {x: 1.0000004, y: 1.0000191, z: 0.999986}
+    - name: ORG-spine.002
+      parentName: tweak_spine.002
+      position: {x: 9.541431e-11, y: 3.8708092e-11, z: 2.0023434e-10}
+      rotation: {x: -0, y: -0.0000000029319076, z: 4.161686e-10, w: 1}
+      scale: {x: 1.0000008, y: 1.0000011, z: 1.0000015}
+    - name: ORG-belly.C
+      parentName: ORG-spine.002
+      position: {x: 7.171549e-11, y: 0.00023987517, z: 0.00047807768}
+      rotation: {x: 0.7227325, y: -0.000004995846, z: -0.0000052411524, w: 0.69112796}
+      scale: {x: 1.0000001, y: 1.0000088, z: 0.99999976}
+    - name: DEF-belly.C
+      parentName: ORG-belly.C
+      position: {x: -5.553346e-11, y: -1.9679404e-11, z: -1.9184938e-11}
+      rotation: {x: -0, y: -2.2737365e-13, z: -0.0000000029099279, w: 1}
+      scale: {x: 1.0000004, y: 1.0000014, z: 1.000001}
+    - name: DEF-belly.C_end
+      parentName: DEF-belly.C
+      position: {x: -0, y: 0.00044599993, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-spine.003
+      parentName: spine_fk.002
+      position: {x: -0.00008985032, y: 0.00069405657, z: -0.000008129569}
+      rotation: {x: -0.9997503, y: 3.690929e-10, z: -0.000000013092532, w: 0.022346528}
+      scale: {x: 1.0000079, y: 1.0000019, z: 0.999964}
+    - name: spine_fk.003
+      parentName: MCH-spine.003
+      position: {x: -2.9695153e-11, y: -4.351546e-11, z: 4.0220716e-11}
+      rotation: {x: 0.99921566, y: -3.6286307e-10, z: 0.000000011636166, w: 0.03959903}
+      scale: {x: 1.0000007, y: 1.0000051, z: 1.0000025}
+    - name: ORG-spine.004
+      parentName: spine_fk.003
+      position: {x: 0.00009712304, y: 0.0010038072, z: 0.00009869846}
+      rotation: {x: -0.07921112, y: -9.333333e-10, z: 0.0000000058449947, w: 0.9968579}
+      scale: {x: 1.0461024, y: 0.9138011, z: 1.0460317}
+    - name: ORG-spine.005
+      parentName: ORG-spine.004
+      position: {x: -8.614734e-11, y: 0.00016977868, z: 4.1909514e-11}
+      rotation: {x: -0.072653584, y: 0.00000002274893, z: -0.000000023265375, w: 0.9973573}
+      scale: {x: 0.9998121, y: 0.9981067, z: 1.0031942}
+    - name: ORG-spine.006
+      parentName: ORG-spine.005
+      position: {x: 2.7939677e-11, y: 0.00013370016, z: -7.4505804e-11}
+      rotation: {x: -0.02618567, y: 0.000000009420037, z: 0.00000002946879, w: 0.99965715}
+      scale: {x: 0.9570326, y: 1.073218, z: 0.97659075}
+    - name: ORG-face
+      parentName: ORG-spine.006
+      position: {x: 3.7252902e-11, y: -9.313225e-11, z: -2.7939676e-10}
+      rotation: {x: -0.537599, y: -0.000000025033886, z: -0.00000003926458, w: 0.84320056}
+      scale: {x: 1.0000002, y: 0.8197929, z: 1.2275257}
+    - name: DEF-forehead.L
+      parentName: ORG-face
+      position: {x: -0.00010299992, y: 0.00019325173, z: 0.0006653891}
+      rotation: {x: -0.6252001, y: 0.3094998, z: 0.6370203, w: -0.32793272}
+      scale: {x: 0.90241283, y: 1.1052151, z: 1.000102}
+    - name: DEF-forehead.L_end
+      parentName: DEF-forehead.L
+      position: {x: -0, y: 0.00019480813, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-forehead.R
+      parentName: ORG-face
+      position: {x: 0.00010300005, y: 0.00019325159, z: 0.00066538923}
+      rotation: {x: 0.6252, y: 0.30949992, z: 0.6370204, w: 0.32793283}
+      scale: {x: 0.9024143, y: 1.1052171, z: 1.0001035}
+    - name: DEF-forehead.R_end
+      parentName: DEF-forehead.R
+      position: {x: -0, y: 0.00019480813, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-forehead.L.001
+      parentName: ORG-face
+      position: {x: -0.0002255941, y: 0.00020398821, z: 0.00061700004}
+      rotation: {x: 0.7335351, y: -0.30924252, z: -0.48603386, w: 0.36064705}
+      scale: {x: 0.91807055, y: 1.0995114, z: 0.9870864}
+    - name: DEF-forehead.L.001_end
+      parentName: DEF-forehead.L.001
+      position: {x: -0, y: 0.00014945676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-forehead.R.001
+      parentName: ORG-face
+      position: {x: 0.00022559422, y: 0.00020398821, z: 0.00061700004}
+      rotation: {x: 0.7335351, y: 0.30924264, z: 0.48603395, w: 0.3606471}
+      scale: {x: 0.9180721, y: 1.0995139, z: 0.98708856}
+    - name: DEF-forehead.R.001_end
+      parentName: DEF-forehead.R.001
+      position: {x: -0, y: 0.00014945676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-forehead.L.002
+      parentName: ORG-face
+      position: {x: -0.00040499994, y: 0.00016199055, z: 0.00049400004}
+      rotation: {x: 0.8917102, y: -0.08551911, z: -0.21951315, w: 0.38646257}
+      scale: {x: 0.97794497, y: 1.1120062, z: 0.91975456}
+    - name: DEF-forehead.L.002_end
+      parentName: DEF-forehead.L.002
+      position: {x: -0, y: 0.00017475114, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-forehead.R.002
+      parentName: ORG-face
+      position: {x: 0.000405, y: 0.00016199047, z: 0.00049400004}
+      rotation: {x: 0.8917102, y: 0.0855192, z: 0.21951312, w: 0.38646257}
+      scale: {x: 0.97794497, y: 1.1120076, z: 0.919754}
+    - name: DEF-forehead.R.002_end
+      parentName: DEF-forehead.R.002
+      position: {x: -0, y: 0.00017475114, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-temple.L
+      parentName: ORG-face
+      position: {x: -0.00036699997, y: 0.000079995465, z: 0.00026299997}
+      rotation: {x: 0.99928635, y: -0.025856042, z: 0.012616853, w: 0.024475629}
+      scale: {x: 1.000316, y: 1.010923, z: 0.99017406}
+    - name: DEF-temple.L_end
+      parentName: DEF-temple.L
+      position: {x: -0, y: 0.00024863027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-temple.R
+      parentName: ORG-face
+      position: {x: 0.00036699994, y: 0.00007999539, z: 0.00026299988}
+      rotation: {x: 0.9992864, y: 0.02585614, z: -0.012616842, w: 0.024475606}
+      scale: {x: 1.0003161, y: 1.0109241, z: 0.9901757}
+    - name: DEF-temple.R_end
+      parentName: DEF-temple.R
+      position: {x: -0, y: 0.00024863027, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: master_eye.L
+      parentName: ORG-face
+      position: {x: -0.00024203018, y: -0.000059993974, z: 0.00059786293}
+      rotation: {x: 0.00000003292723, y: 0.70710796, z: 0.7071057, w: -4.7961635e-14}
+      scale: {x: 1.0000043, y: 1.0000014, z: 1.1344848}
+    - name: brow.B.L 1
+      parentName: master_eye.L
+      position: {x: 0.00020796958, y: 0.000030999767, z: -0.000009999685}
+      rotation: {x: 0.117701724, y: -0.6972429, z: -0.6972407, w: 0.11770293}
+      scale: {x: 0.9999992, y: 0.9999993, z: 1.0000005}
+    - name: DEF-brow.B.L
+      parentName: brow.B.L 1
+      position: {x: 5.5879353e-11, y: -3.7252902e-11, z: -3.7252902e-11}
+      rotation: {x: 0.24201533, y: -0.4327718, z: -0.37409076, w: 0.7837048}
+      scale: {x: 1.1707203, y: 1.0883183, z: 0.79393023}
+    - name: DEF-brow.B.L_end
+      parentName: DEF-brow.B.L
+      position: {x: -0, y: 0.00019428623, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.L.001 1
+      parentName: master_eye.L
+      position: {x: 0.000093969655, y: 0.00013600018, z: 0.00010715121}
+      rotation: {x: -0.023487678, y: -0.7067177, z: -0.70671535, w: -0.023487823}
+      scale: {x: 1.0000002, y: 0.9999994, z: 1.0000013}
+    - name: DEF-brow.B.L.001
+      parentName: brow.B.L.001 1
+      position: {x: -6.984919e-11, y: 0, z: 6.519258e-11}
+      rotation: {x: 0.2759894, y: 0.61817956, z: 0.60116214, w: -0.42460337}
+      scale: {x: 1.0813628, y: 0.93522066, z: 0.9879517}
+    - name: DEF-brow.B.L.001_end
+      parentName: DEF-brow.B.L.001
+      position: {x: -0, y: 0.000115185976, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.L.002 1
+      parentName: master_eye.L
+      position: {x: -0.000000030312222, y: 0.00020100024, z: 0.000121530495}
+      rotation: {x: 0.053511854, y: -0.7050803, z: -0.7050779, w: 0.05351244}
+      scale: {x: 1.0000002, y: 0.99999857, z: 1.0000004}
+    - name: DEF-brow.B.L.002
+      parentName: brow.B.L.002 1
+      position: {x: 3.7252902e-11, y: 0, z: 9.3132255e-12}
+      rotation: {x: 0.48381406, y: 0.5730639, z: 0.653558, w: -0.101899914}
+      scale: {x: 0.8433245, y: 1.1758249, z: 1.0205902}
+    - name: DEF-brow.B.L.002_end
+      parentName: DEF-brow.B.L.002
+      position: {x: -0, y: 0.00014267069, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.L.003 1
+      parentName: master_eye.L
+      position: {x: -0.0001110301, y: 0.0002779282, z: 0.000075533855}
+      rotation: {x: 0.1211721, y: -0.6966481, z: -0.69664603, w: 0.12117341}
+      scale: {x: 1, y: 0.9999992, z: 1.0000004}
+    - name: DEF-brow.B.L.003
+      parentName: brow.B.L.003 1
+      position: {x: -9.3132255e-12, y: 3.7252902e-11, z: 2.0489097e-10}
+      rotation: {x: 0.8406351, y: 0.17494795, z: 0.4874112, w: -0.15860672}
+      scale: {x: 1.2280883, y: 0.935814, z: 0.86916053}
+    - name: DEF-brow.B.L.003_end
+      parentName: DEF-brow.B.L.003
+      position: {x: -0, y: 0.00011540926, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.L
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: -0.00000035976433, y: -0.33308247, z: 0.24132115, w: 0.9114933}
+      scale: {x: 0.9440557, y: 1.0307914, z: 1.0273542}
+    - name: DEF-lid.B.L
+      parentName: MCH-lid.B.L
+      position: {x: 3.7252902e-11, y: 0.0002794166, z: 1.8626451e-11}
+      rotation: {x: 0.27968958, y: -0.49227482, z: 0.73401004, w: -0.37505797}
+      scale: {x: 0.8038469, y: 1.0155573, z: 1.2695587}
+    - name: DEF-lid.B.L_end
+      parentName: DEF-lid.B.L
+      position: {x: -0, y: 0.00004661719, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.L.001
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: 0.000011642858, y: -0.6259417, z: 0.20298205, w: 0.75299084}
+      scale: {x: 0.94122845, y: 1.0506164, z: 1.0123485}
+    - name: DEF-lid.B.L.001
+      parentName: MCH-lid.B.L.001
+      position: {x: -1.2107193e-10, y: 0.00027230548, z: 1.8626451e-11}
+      rotation: {x: 0.5071452, y: -0.4989856, z: 0.64344686, w: -0.2824769}
+      scale: {x: 0.79801065, y: 1.0943985, z: 1.1935035}
+    - name: DEF-lid.B.L.001_end
+      parentName: DEF-lid.B.L.001
+      position: {x: -0, y: 0.000055317294, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.L.002
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: 0.000006404873, y: -0.92585003, z: 0.17316319, w: 0.33588117}
+      scale: {x: 0.9846994, y: 1.065539, z: 0.9517655}
+    - name: DEF-lid.B.L.002
+      parentName: MCH-lid.B.L.002
+      position: {x: 9.313225e-11, y: 0.00025863832, z: 2.3283063e-11}
+      rotation: {x: -0.8005311, y: 0.44471884, z: -0.3663135, w: 0.16489272}
+      scale: {x: 0.9449583, y: 1.3704054, z: 0.7897544}
+    - name: DEF-lid.B.L.002_end
+      parentName: DEF-lid.B.L.002
+      position: {x: -0, y: 0.00009436436, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.L.003
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: -0.000013274851, y: -0.7380608, z: 0.1874646, w: -0.6481694}
+      scale: {x: 0.9521367, y: 1.0558741, z: 0.99452126}
+    - name: DEF-lid.B.L.003
+      parentName: MCH-lid.B.L.003
+      position: {x: -2.0489097e-10, y: 0.0002212422, z: -2.6775523e-11}
+      rotation: {x: -0.74587566, y: 0.46844742, z: 0.47352389, w: -0.0012976225}
+      scale: {x: 1.2903857, y: 1.0270528, z: 0.7588924}
+    - name: DEF-lid.B.L.003_end
+      parentName: DEF-lid.B.L.003
+      position: {x: -0, y: 0.000121252895, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.L
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: 0.0000020720356, y: -0.29714185, z: -0.30958915, w: 0.9032504}
+      scale: {x: 1.067155, y: 0.9686337, z: 0.9681265}
+    - name: DEF-lid.T.L
+      parentName: MCH-lid.T.L
+      position: {x: -0, y: 0.00018315084, z: 0}
+      rotation: {x: 0.1441125, y: -0.711206, z: -0.5944197, w: -0.34652993}
+      scale: {x: 0.9104382, y: 0.90214103, z: 1.2327291}
+    - name: DEF-lid.T.L_end
+      parentName: DEF-lid.T.L
+      position: {x: -0, y: 0.0000818874, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.L.001
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: -0.000012956207, y: -0.76319504, z: -0.18172392, w: 0.6200885}
+      scale: {x: 1.046636, y: 0.9472373, z: 1.0101138}
+    - name: DEF-lid.T.L.001
+      parentName: MCH-lid.T.L.001
+      position: {x: -1.2107193e-10, y: 0.00021863516, z: 4.6566128e-12}
+      rotation: {x: 0.38284704, y: 0.6890238, z: 0.44127706, w: 0.4288927}
+      scale: {x: 1.1435798, y: 0.8874502, z: 0.9957603}
+    - name: DEF-lid.T.L.001_end
+      parentName: DEF-lid.T.L.001
+      position: {x: -0, y: 0.00008022388, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.L.002
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: 0.0000035509017, y: -0.95318276, z: -0.1367046, w: -0.2697304}
+      scale: {x: 1.0081074, y: 0.9491979, z: 1.0471698}
+    - name: DEF-lid.T.L.002
+      parentName: MCH-lid.T.L.002
+      position: {x: 5.122274e-11, y: 0.0002556793, z: -1.4901161e-10}
+      rotation: {x: 0.6871945, y: 0.7206933, z: -0.024410812, w: -0.08814158}
+      scale: {x: 0.963538, y: 1.110463, z: 0.9470927}
+    - name: DEF-lid.T.L.002_end
+      parentName: DEF-lid.T.L.002
+      position: {x: -0, y: 0.00007995102, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.L.003
+      parentName: master_eye.L
+      position: {x: -6.286427e-11, y: 3.259629e-11, z: -2.2351741e-10}
+      rotation: {x: -0.00000079175265, y: 0.36690855, z: 0.18757348, w: 0.91115004}
+      scale: {x: 1.0509307, y: 0.97347814, z: 0.9784222}
+    - name: DEF-lid.T.L.003
+      parentName: MCH-lid.T.L.003
+      position: {x: 9.313225e-11, y: 0.00027200158, z: 2.3283063e-11}
+      rotation: {x: -0.5110065, y: -0.6308622, z: 0.52613574, w: 0.25311375}
+      scale: {x: 1.174634, y: 1.0196867, z: 0.84518546}
+    - name: DEF-lid.T.L.003_end
+      parentName: DEF-lid.T.L.003
+      position: {x: -0, y: 0.00008783873, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: master_eye.R
+      parentName: ORG-face
+      position: {x: 0.00024203035, y: -0.00005999351, z: 0.00059786305}
+      rotation: {x: 0.000000008231794, y: 0.70710796, z: 0.7071057, w: -0.0000000082318135}
+      scale: {x: 1.0000038, y: 1.0000014, z: 1.1722989}
+    - name: brow.B.R 1
+      parentName: master_eye.R
+      position: {x: -0.00020796976, y: 0.000030999978, z: -0.000009999499}
+      rotation: {x: -0.16842374, y: -0.6867567, z: -0.68675447, w: -0.16842555}
+      scale: {x: 1.0000008, y: 0.9999983, z: 1.0000008}
+    - name: DEF-brow.B.R
+      parentName: brow.B.R 1
+      position: {x: 9.3132255e-12, y: -6.519258e-11, z: -5.5879353e-11}
+      rotation: {x: 0.29226115, y: 0.4777922, z: 0.38645545, w: 0.73276895}
+      scale: {x: 1.1503055, y: 1.1177047, z: 0.78571326}
+    - name: DEF-brow.B.R_end
+      parentName: DEF-brow.B.R
+      position: {x: -0, y: 0.00018283873, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.R.001 1
+      parentName: master_eye.R
+      position: {x: -0.00009396953, y: 0.00013600022, z: 0.00008699372}
+      rotation: {x: -0.025273604, y: -0.7066563, z: -0.7066538, w: -0.025273835}
+      scale: {x: 1.0000001, y: 0.99999845, z: 1.0000008}
+    - name: DEF-brow.B.R.001
+      parentName: brow.B.R.001 1
+      position: {x: 6.519258e-11, y: 0, z: -9.3132255e-12}
+      rotation: {x: -0.24338819, y: 0.62483585, z: 0.6438429, w: 0.3685224}
+      scale: {x: 0.9735479, y: 1.056967, z: 0.9764944}
+    - name: DEF-brow.B.R.001_end
+      parentName: DEF-brow.B.R.001
+      position: {x: -0, y: 0.00011444215, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.R.002 1
+      parentName: master_eye.R
+      position: {x: 0.00000003032386, y: 0.0002010004, z: 0.00009299329}
+      rotation: {x: -0.0535119, y: -0.7050803, z: -0.7050779, w: -0.0535124}
+      scale: {x: 1.0000002, y: 0.9999982, z: 1.0000004}
+    - name: DEF-brow.B.R.002
+      parentName: brow.B.R.002 1
+      position: {x: -0, y: -9.313225e-11, z: -2.7939677e-11}
+      rotation: {x: -0.3288677, y: 0.6178921, z: 0.6752438, w: 0.23259678}
+      scale: {x: 0.86579156, y: 1.1590735, z: 1.00192}
+    - name: DEF-brow.B.R.002_end
+      parentName: DEF-brow.B.R.002
+      position: {x: -0, y: 0.00013617566, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.B.R.003 1
+      parentName: master_eye.R
+      position: {x: 0.000111030364, y: 0.0002779285, z: 0.00007553402}
+      rotation: {x: -0.121172145, y: -0.6966481, z: -0.69664603, w: -0.12117341}
+      scale: {x: 1.000001, y: 0.99999887, z: 1.0000005}
+    - name: DEF-brow.B.R.003
+      parentName: brow.B.R.003 1
+      position: {x: 9.778887e-11, y: 1.8626451e-11, z: 5.5879353e-11}
+      rotation: {x: 0.84063536, y: -0.17494784, z: -0.48741108, w: -0.1586067}
+      scale: {x: 1.2281107, y: 0.93916976, z: 0.87000406}
+    - name: DEF-brow.B.R.003_end
+      parentName: DEF-brow.B.R.003
+      position: {x: -0, y: 0.00011540926, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.R
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: -0.000011837494, y: -0.51323044, z: 0.3310304, w: -0.7918418}
+      scale: {x: 0.9150762, y: 1.0592604, z: 1.0362316}
+    - name: DEF-lid.B.R
+      parentName: MCH-lid.B.R
+      position: {x: 1.21654e-10, y: 0.00027663063, z: 3.7252902e-11}
+      rotation: {x: 0.31415847, y: 0.5029293, z: -0.7631391, w: -0.25687584}
+      scale: {x: 0.8256901, y: 1.1875855, z: 1.055276}
+    - name: DEF-lid.B.R_end
+      parentName: DEF-lid.B.R
+      position: {x: -0, y: 0.00005496362, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.R.001
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: -0.000019886642, y: -0.73012674, z: 0.2825026, w: -0.6221795}
+      scale: {x: 0.9356193, y: 1.0769114, z: 0.9939276}
+    - name: DEF-lid.B.R.001
+      parentName: MCH-lid.B.R.001
+      position: {x: 3.259629e-11, y: 0.00026178578, z: -1.11758706e-10}
+      rotation: {x: 0.5635305, y: 0.5479748, z: -0.60209787, w: -0.14012608}
+      scale: {x: 0.74602455, y: 1.3692479, z: 1.0357362}
+    - name: DEF-lid.B.R.001_end
+      parentName: DEF-lid.B.R.001
+      position: {x: -0, y: 0.00007312317, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.R.002
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: -0.0000046602295, y: -0.9507637, z: 0.2638544, w: -0.16257118}
+      scale: {x: 0.9943639, y: 1.095609, z: 0.9185583}
+    - name: DEF-lid.B.R.002
+      parentName: MCH-lid.B.R.002
+      position: {x: -1.8626451e-11, y: 0.00024513263, z: -9.778887e-11}
+      rotation: {x: -0.8330567, y: -0.48314506, z: 0.26941988, w: 0.00069969875}
+      scale: {x: 0.9713758, y: 1.2399522, z: 0.8577074}
+    - name: DEF-lid.B.R.002_end
+      parentName: DEF-lid.B.R.002
+      position: {x: -0, y: 0.00012603571, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.B.R.003
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: 0.000022314054, y: -0.6771779, z: 0.3345632, w: 0.65536076}
+      scale: {x: 0.922354, y: 1.0782236, z: 1.0084333}
+    - name: DEF-lid.B.R.003
+      parentName: MCH-lid.B.R.003
+      position: {x: 8.8475643e-11, y: 0.00020743953, z: 0}
+      rotation: {x: -0.74616575, y: -0.43701622, z: -0.46267864, w: -0.19540213}
+      scale: {x: 1.3727932, y: 0.8517786, z: 0.8533492}
+    - name: DEF-lid.B.R.003_end
+      parentName: DEF-lid.B.R.003
+      position: {x: -0, y: 0.00014553002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.R
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: 0.00000703405, y: 0.06039145, z: 0.5131949, w: 0.85614485}
+      scale: {x: 1.0198828, y: 0.99344534, z: 0.9873703}
+    - name: DEF-lid.T.R
+      parentName: MCH-lid.T.R
+      position: {x: 1.3969838e-11, y: 0.0001774922, z: 1.8626451e-11}
+      rotation: {x: -0.3505275, y: -0.49835637, z: -0.6999164, w: 0.37267748}
+      scale: {x: 1.0063988, y: 1.1814669, z: 0.84651}
+    - name: DEF-lid.T.R_end
+      parentName: DEF-lid.T.R
+      position: {x: -0, y: 0.000109370885, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.R.001
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: 0.000006580889, y: -0.46596688, z: -0.27069315, w: -0.8423777}
+      scale: {x: 1.079074, y: 0.9554599, z: 0.96909904}
+    - name: DEF-lid.T.R.001
+      parentName: MCH-lid.T.R.001
+      position: {x: -3.7252902e-11, y: 0.00018630506, z: 4.6566126e-11}
+      rotation: {x: -0.24088706, y: 0.43887493, z: 0.6349764, w: -0.5883597}
+      scale: {x: 1.0954608, y: 1.1271791, z: 0.83073527}
+    - name: DEF-lid.T.R.001_end
+      parentName: DEF-lid.T.R.001
+      position: {x: -0, y: 0.00010714943, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.R.002
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: -0.0000010806386, y: -0.9861711, z: -0.12559313, w: 0.10813379}
+      scale: {x: 1.0011957, y: 0.951254, z: 1.0508757}
+    - name: DEF-lid.T.R.002
+      parentName: MCH-lid.T.R.002
+      position: {x: 5.5879353e-11, y: 0.00022200466, z: -1.4901161e-10}
+      rotation: {x: 0.69687533, y: -0.711717, z: -0.07869221, w: 0.040388793}
+      scale: {x: 0.9882828, y: 0.99057573, z: 1.0306511}
+    - name: DEF-lid.T.R.002_end
+      parentName: DEF-lid.T.R.002
+      position: {x: -0, y: 0.00010678486, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-lid.T.R.003
+      parentName: master_eye.R
+      position: {x: -3.7252902e-11, y: 4.4237822e-11, z: -1.6763806e-10}
+      rotation: {x: 0.0000021738585, y: -0.14693296, z: -0.21962917, w: 0.9644551}
+      scale: {x: 1.027426, y: 0.98778933, z: 0.98725337}
+    - name: DEF-lid.T.R.003
+      parentName: MCH-lid.T.R.003
+      position: {x: 1.6763806e-10, y: 0.00024791787, z: -1.0710209e-10}
+      rotation: {x: 0.3806099, y: -0.5767741, z: 0.58649355, w: -0.42248446}
+      scale: {x: 1.1324818, y: 1.1414872, z: 0.77399695}
+    - name: DEF-lid.T.R.003_end
+      parentName: DEF-lid.T.R.003
+      position: {x: -0, y: 0.000117319985, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L 1
+      parentName: ORG-face
+      position: {x: -0.00031130074, y: 0.00022548514, z: 0.00041782073}
+      rotation: {x: 0.46732923, y: 0.69704944, z: -0.16469793, w: 0.5182665}
+      scale: {x: 1.0908837, y: 0.972261, z: 0.93901}
+    - name: DEF-ear.L
+      parentName: ear.L 1
+      position: {x: 4.1909514e-11, y: 1.8626451e-11, z: -1.8626451e-11}
+      rotation: {x: -0.000000029802319, y: 0.000019937752, z: 0.000000059604638, w: 1}
+      scale: {x: 1.0000478, y: 1.0000004, z: 0.99994653}
+    - name: DEF-ear.L_end
+      parentName: DEF-ear.L
+      position: {x: -0, y: 0.00015252968, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-ear.L.001
+      parentName: ear.L 1
+      position: {x: 7.4505804e-11, y: 0.00015252702, z: 3.7252902e-11}
+      rotation: {x: -0.5504111, y: -0.5480967, z: 0.3399564, w: 0.53015786}
+      scale: {x: 1.0462096, y: 1.5253808, z: 0.6900137}
+    - name: DEF-ear.L.001_end
+      parentName: DEF-ear.L.001
+      position: {x: -0, y: 0.00012830515, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L.002 1
+      parentName: ear.L 1
+      position: {x: 0.000031158997, y: 0.00017343734, z: -0.00012268801}
+      rotation: {x: -0.27128386, y: -0.86853385, z: 0.41463417, w: -0.011515438}
+      scale: {x: 0.59023833, y: 2.2899942, z: 0.83318913}
+    - name: DEF-ear.L.002
+      parentName: ear.L.002 1
+      position: {x: -1.8626451e-11, y: -3.1664968e-10, z: 1.4901161e-10}
+      rotation: {x: 0.347968, y: 0.36103538, z: 0.09638839, w: 0.8598145}
+      scale: {x: 1.4425261, y: 1.1924369, z: 0.5958593}
+    - name: DEF-ear.L.002_end
+      parentName: DEF-ear.L.002
+      position: {x: -0, y: 0.00024223243, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L.003 1
+      parentName: ear.L 1
+      position: {x: 0.00006642568, y: 0.00015659613, z: -0.0003617377}
+      rotation: {x: -0.31151074, y: 0.2552937, z: -0.38533345, w: 0.8302436}
+      scale: {x: 0.74231684, y: 2.2899933, z: 0.6471771}
+    - name: DEF-ear.L.003
+      parentName: ear.L.003 1
+      position: {x: -1.8626451e-11, y: -7.4505804e-11, z: -7.4505804e-11}
+      rotation: {x: -0.7095833, y: -0.08779076, z: 0.6893114, w: -0.11676531}
+      scale: {x: 1.0225102, y: 1.0802629, z: 0.8712236}
+    - name: DEF-ear.L.003_end
+      parentName: DEF-ear.L.003
+      position: {x: -0, y: 0.00043056073, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.L.004
+      parentName: ear.L 1
+      position: {x: -0.000048534686, y: -0.000145238, z: -0.00007706325}
+      rotation: {x: -0.10200442, y: 0.6051835, z: -0.4848891, w: 0.6230817}
+      scale: {x: 0.83383656, y: 2.289994, z: 0.58987856}
+    - name: DEF-ear.L.004
+      parentName: ear.L.004
+      position: {x: -3.7252902e-11, y: 3.7252902e-11, z: 1.862645e-10}
+      rotation: {x: 0.31316954, y: -0.4283923, z: 0.52799624, w: 0.6630421}
+      scale: {x: 0.8015308, y: 0.92969364, z: 1.2467282}
+    - name: DEF-ear.L.004_end
+      parentName: DEF-ear.L.004
+      position: {x: -0, y: 0.00017143118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R 1
+      parentName: ORG-face
+      position: {x: 0.00038809417, y: 0.00020929202, z: 0.000421982}
+      rotation: {x: 0.4673292, y: -0.69704944, z: 0.16469793, w: 0.5182665}
+      scale: {x: 1.0907593, y: 0.9729274, z: 0.9384727}
+    - name: DEF-ear.R
+      parentName: ear.R 1
+      position: {x: 6.984919e-11, y: 2.7939677e-11, z: 1.11758706e-10}
+      rotation: {x: 0.000000014901158, y: -0.000019997353, z: -0.000000029802315, w: 1}
+      scale: {x: 1.0000482, y: 1.0000002, z: 0.99994636}
+    - name: DEF-ear.R_end
+      parentName: DEF-ear.R
+      position: {x: -0, y: 0.00015252968, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-ear.R.001
+      parentName: ear.R 1
+      position: {x: 1.3969838e-10, y: 0.00015252724, z: -1.3969838e-11}
+      rotation: {x: -0.55041105, y: 0.5480967, z: -0.33995637, w: 0.5301579}
+      scale: {x: 1.0462337, y: 1.5255663, z: 0.69001216}
+    - name: DEF-ear.R.001_end
+      parentName: DEF-ear.R.001
+      position: {x: -0, y: 0.00012830515, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R.002 1
+      parentName: ear.R 1
+      position: {x: -0.0000311588, y: 0.0001734375, z: -0.00012268794}
+      rotation: {x: -0.27128384, y: 0.8685338, z: -0.41463423, w: -0.011515497}
+      scale: {x: 0.59024245, y: 2.2900448, z: 0.83327705}
+    - name: DEF-ear.R.002
+      parentName: ear.R.002 1
+      position: {x: 1.8626451e-11, y: 2.0489097e-10, z: -7.4505804e-11}
+      rotation: {x: 0.347968, y: -0.3610355, z: -0.09638824, w: 0.8598146}
+      scale: {x: 1.4336697, y: 1.1987916, z: 0.59587127}
+    - name: DEF-ear.R.002_end
+      parentName: DEF-ear.R.002
+      position: {x: -0, y: 0.00024223243, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R.003 1
+      parentName: ear.R 1
+      position: {x: -0.00006642584, y: 0.00015659672, z: -0.000361738}
+      rotation: {x: 0.31151074, y: 0.2552937, z: -0.38533345, w: -0.8302436}
+      scale: {x: 0.7422879, y: 2.290044, z: 0.6472553}
+    - name: DEF-ear.R.003
+      parentName: ear.R.003 1
+      position: {x: 3.7252902e-11, y: 1.3504177e-10, z: 3.7252902e-11}
+      rotation: {x: -0.7095833, y: 0.08779081, z: -0.68931144, w: -0.116765246}
+      scale: {x: 1.0220859, y: 1.0785226, z: 0.8733508}
+    - name: DEF-ear.R.003_end
+      parentName: DEF-ear.R.003
+      position: {x: -0, y: 0.00043056073, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ear.R.004
+      parentName: ear.R 1
+      position: {x: 0.00004853487, y: -0.0001452378, z: -0.000077063196}
+      rotation: {x: 0.10200442, y: 0.6051835, z: -0.48488903, w: -0.62308174}
+      scale: {x: 0.8339239, y: 2.2900424, z: 0.5898831}
+    - name: DEF-ear.R.004
+      parentName: ear.R.004
+      position: {x: 1.3038516e-10, y: 1.6298145e-10, z: 1.8626451e-11}
+      rotation: {x: 0.31316957, y: 0.42839232, z: -0.5279962, w: 0.6630421}
+      scale: {x: 0.80221486, y: 0.92682815, z: 1.2490486}
+    - name: DEF-ear.R.004_end
+      parentName: DEF-ear.R.004
+      position: {x: -0, y: 0.00017143118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw_master
+      parentName: ORG-face
+      position: {x: 3.7252902e-11, y: -0.00010966174, z: 0.00030027668}
+      rotation: {x: 0.89740205, y: 0.000000015757864, z: 0.000000020719956, w: 0.44121385}
+      scale: {x: 1, y: 1.1069368, z: 0.90156615}
+    - name: tongue_master
+      parentName: jaw_master
+      position: {x: 1.8626451e-11, y: 0.00052433956, z: -0.000115443094}
+      rotation: {x: -0.21971866, y: 0.000000005645792, z: -0.000000015465297, w: 0.9755633}
+      scale: {x: 0.9999995, y: 0.5534729, z: 2.0989587}
+    - name: tongue 2
+      parentName: tongue_master
+      position: {x: -1.3969838e-11, y: 0.00015266822, z: -1.7695129e-10}
+      rotation: {x: -0.77852947, y: -0.000000010820226, z: -0.000000023675918, w: 0.627608}
+      scale: {x: 1.0000007, y: 0.9580278, z: 1.0649711}
+    - name: DEF-tongue
+      parentName: tongue 2
+      position: {x: 5.5879353e-11, y: -2.7939677e-11, z: 3.4924594e-11}
+      rotation: {x: -0.62760806, y: -0.000000009063278, z: -0.0000000073063218, w: 0.77852947}
+      scale: {x: 1.0000015, y: 1.2796632, z: 0.86574274}
+    - name: DEF-tongue_end
+      parentName: DEF-tongue
+      position: {x: -0, y: 0.00015266878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin 1
+      parentName: jaw_master
+      position: {x: 9.3132255e-12, y: 0.0004912311, z: 1.11758706e-10}
+      rotation: {x: -0.897402, y: -0.00000090931786, z: 0.0000018231117, w: 0.44121397}
+      scale: {x: 0.9999997, y: 2.4497695, z: 0.46837357}
+    - name: DEF-chin
+      parentName: chin 1
+      position: {x: 1.0244548e-10, y: 0, z: -1.6996636e-10}
+      rotation: {x: 0.73247266, y: 0.000000022733042, z: -0.0000029827363, w: 0.68079656}
+      scale: {x: 1.0000008, y: 0.8678292, z: 1.0756195}
+    - name: DEF-chin_end
+      parentName: DEF-chin
+      position: {x: -0, y: 0.00018379166, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin.001 1
+      parentName: chin 1
+      position: {x: 9.080395e-10, y: -0.000013423487, z: 0.00018330064}
+      rotation: {x: -0.000000119209275, y: 0.0000018044369, z: -0.000000034924636, w: 1}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000006}
+    - name: DEF-chin.001
+      parentName: chin.001 1
+      position: {x: 3.259629e-11, y: 1.8626451e-11, z: 4.8894434e-11}
+      rotation: {x: 0.51433253, y: 0.0000000339861, z: -0.00000023757762, w: 0.85759085}
+      scale: {x: 1.0000081, y: 1.980384, z: 0.6425456}
+    - name: DEF-chin.001_end
+      parentName: DEF-chin.001
+      position: {x: -0, y: 0.00010919196, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin.L
+      parentName: jaw_master
+      position: {x: -0.00023499991, y: 0.00034747928, z: 0.000064134714}
+      rotation: {x: -0.8779108, y: -0.091458276, z: 0.1860186, w: 0.43163085}
+      scale: {x: 0.87384164, y: 2.4497693, z: 0.5256732}
+    - name: DEF-chin.L
+      parentName: chin.L
+      position: {x: -0, y: 9.313225e-11, z: 5.5879353e-11}
+      rotation: {x: 0.14849782, y: 0.27937892, z: 0.23978597, w: 0.91782266}
+      scale: {x: 1.2548012, y: 1.1530962, z: 0.59776646}
+    - name: DEF-chin.L_end
+      parentName: DEF-chin.L
+      position: {x: -0, y: 0.000105834784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chin.R
+      parentName: jaw_master
+      position: {x: 0.00023500006, y: 0.00034747928, z: 0.000064134525}
+      rotation: {x: -0.8779108, y: 0.091458194, z: -0.18601866, w: 0.43163085}
+      scale: {x: 0.873842, y: 2.4497702, z: 0.52567333}
+    - name: DEF-chin.R
+      parentName: chin.R
+      position: {x: 7.4505804e-11, y: 2.6077032e-10, z: -7.4505804e-11}
+      rotation: {x: 0.14849785, y: -0.2793789, z: -0.23978594, w: 0.9178227}
+      scale: {x: 1.2548018, y: 1.1530948, z: 0.59776676}
+    - name: DEF-chin.R_end
+      parentName: DEF-chin.R
+      position: {x: -0, y: 0.000105834784, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw 1
+      parentName: jaw_master
+      position: {x: -1.8626451e-11, y: 0.00015285652, z: 0.00021295655}
+      rotation: {x: -0.89740205, y: -1.7432455e-10, z: -0.000000026030687, w: 0.44121388}
+      scale: {x: 0.9999995, y: 2.449771, z: 0.4683737}
+    - name: DEF-jaw
+      parentName: jaw 1
+      position: {x: -5.5879353e-11, y: -9.313225e-11, z: 4.6566126e-11}
+      rotation: {x: 0.73994225, y: -0.000000007830915, z: 0.000000008614069, w: 0.6726704}
+      scale: {x: 1.0000011, y: 0.8331167, z: 1.099604}
+    - name: DEF-jaw_end
+      parentName: DEF-jaw
+      position: {x: -0, y: 0.00039981015, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw.L.001
+      parentName: jaw_master
+      position: {x: -0.0002839999, y: 0.00014411638, z: 0.0001426706}
+      rotation: {x: -0.8974019, y: 0.000110314795, z: -0.00022434705, w: 0.44121382}
+      scale: {x: 0.99999857, y: 2.449771, z: 0.46837398}
+    - name: DEF-jaw.L.001
+      parentName: jaw.L.001
+      position: {x: -8.1490724e-11, y: 0, z: -4.6566126e-11}
+      rotation: {x: 0.6726191, y: 0.43131498, z: 0.43162978, w: 0.41862473}
+      scale: {x: 1.2415785, y: 0.6416708, z: 1.0789627}
+    - name: DEF-jaw.L.001_end
+      parentName: DEF-jaw.L.001
+      position: {x: -0, y: 0.00022344136, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw.R.001
+      parentName: jaw_master
+      position: {x: 0.00028400004, y: 0.00014411639, z: 0.00014267063}
+      rotation: {x: -0.8974019, y: -0.000110304514, z: 0.0002243262, w: 0.44121382}
+      scale: {x: 0.99999857, y: 2.449771, z: 0.46837398}
+    - name: DEF-jaw.R.001
+      parentName: jaw.R.001
+      position: {x: -5.5879353e-11, y: 1.8626451e-11, z: 4.598405e-11}
+      rotation: {x: 0.6726192, y: -0.4313149, z: -0.43162972, w: 0.4186248}
+      scale: {x: 1.2415779, y: 0.6416706, z: 1.0789622}
+    - name: DEF-jaw.R.001_end
+      parentName: DEF-jaw.R.001
+      position: {x: -0, y: 0.00022344136, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-tongue.001
+      parentName: jaw_master
+      position: {x: 5.5879353e-11, y: 0.00052433956, z: -0.000115443094}
+      rotation: {x: -0.21971866, y: -0.000000042222194, z: 0.000000019639007, w: 0.9755633}
+      scale: {x: 0.9999995, y: 0.5534729, z: 2.0989587}
+    - name: tongue.001 1
+      parentName: MCH-tongue.001
+      position: {x: -4.6566126e-11, y: 5.5879353e-11, z: 3.7252902e-11}
+      rotation: {x: -0.77852947, y: 0.00000002367591, z: -0.000000010820243, w: 0.627608}
+      scale: {x: 1.0000007, y: 0.9580278, z: 1.0649711}
+    - name: DEF-tongue.001
+      parentName: tongue.001 1
+      position: {x: -3.7252902e-11, y: -5.5879353e-11, z: 6.635673e-11}
+      rotation: {x: -0.67535216, y: -0.00000004003412, z: 0.000000026480173, w: 0.7374955}
+      scale: {x: 1.0000004, y: 1.1104178, z: 0.94124925}
+    - name: DEF-tongue.001_end
+      parentName: DEF-tongue.001
+      position: {x: -0, y: 0.00013016186, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-tongue.002
+      parentName: jaw_master
+      position: {x: -2.7939677e-11, y: 0.0005243396, z: -0.00011544294}
+      rotation: {x: -0.21971866, y: -0.000000042222194, z: 0.000000019639007, w: 0.9755633}
+      scale: {x: 0.9999995, y: 0.5534729, z: 2.0989587}
+    - name: tongue.002 1
+      parentName: MCH-tongue.002
+      position: {x: 9.3132255e-12, y: -0.00012913087, z: 0.000016349088}
+      rotation: {x: -0.77852947, y: 0.000000076298626, z: 0.00000001664809, w: 0.627608}
+      scale: {x: 1.0000007, y: 0.9580278, z: 1.064971}
+    - name: DEF-tongue.002
+      parentName: tongue.002 1
+      position: {x: 5.5879353e-11, y: 1.4901161e-10, z: 4.6566128e-12}
+      rotation: {x: -0.72002184, y: 6.070076e-10, z: -0.00000003292165, w: 0.6939515}
+      scale: {x: 1.000001, y: 0.9575464, z: 1.0260615}
+    - name: DEF-tongue.002_end
+      parentName: DEF-tongue.002
+      position: {x: -0, y: 0.00013359821, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.L
+      parentName: ORG-face
+      position: {x: -0.00047799997, y: -0.00006599385, z: 0.0004519999}
+      rotation: {x: -0.00000023841858, y: 0.30986413, z: 0.000001206994, w: 0.95078087}
+      scale: {x: 0.9999995, y: 0.99999946, z: 0.9999996}
+    - name: DEF-cheek.T.L
+      parentName: brow.T.L
+      position: {x: -0.000071653005, y: -0.000003999099, z: 0.00014577336}
+      rotation: {x: 0.80595475, y: 0.2656683, z: 0.4590776, w: 0.2628786}
+      scale: {x: 1.2312524, y: 1.1979624, z: 0.7019184}
+    - name: DEF-cheek.T.L_end
+      parentName: DEF-cheek.T.L
+      position: {x: -0, y: 0.0002608677, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-brow.T.L
+      parentName: brow.T.L
+      position: {x: 5.122274e-11, y: 1.11758706e-10, z: 3.7252902e-11}
+      rotation: {x: 0.4824682, y: -0.38475856, z: -0.124383874, w: 0.7769903}
+      scale: {x: 1.3367215, y: 0.810055, z: 0.9345173}
+    - name: DEF-brow.T.L_end
+      parentName: DEF-brow.T.L
+      position: {x: -0, y: 0.00021447841, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.L.001
+      parentName: ORG-face
+      position: {x: -0.00040199986, y: 0.000041999294, z: 0.00062099996}
+      rotation: {x: -0.000000029802315, y: -0.18011166, z: -0.00000067800266, w: 0.98364615}
+      scale: {x: 1, y: 0.99999946, z: 0.9999998}
+    - name: DEF-brow.T.L.001
+      parentName: brow.T.L.001
+      position: {x: 1.44355e-10, y: 0, z: -3.7252902e-11}
+      rotation: {x: -0.25022593, y: -0.55840105, z: -0.5023201, w: 0.6109417}
+      scale: {x: 1.1339993, y: 0.83302546, z: 1.0586718}
+    - name: DEF-brow.T.L.001_end
+      parentName: DEF-brow.T.L.001
+      position: {x: -0, y: 0.0002161505, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.L.002
+      parentName: ORG-face
+      position: {x: -0.00024099994, y: 0.00012199402, z: 0.0007410001}
+      rotation: {x: 0.000000089406946, y: -0.013381451, z: -0.00000004703178, w: 0.9999105}
+      scale: {x: 0.99999994, y: 0.99999946, z: 0.99999994}
+    - name: DEF-brow.T.L.002
+      parentName: brow.T.L.002
+      position: {x: 6.0535965e-11, y: 7.4505804e-11, z: -9.3132255e-12}
+      rotation: {x: 0.55663675, y: 0.5801404, z: 0.5654417, w: -0.18403335}
+      scale: {x: 0.9393693, y: 1.0070366, z: 1.0624176}
+    - name: DEF-brow.T.L.002_end
+      parentName: DEF-brow.T.L.002
+      position: {x: -0, y: 0.00017110008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.L.003
+      parentName: ORG-face
+      position: {x: -0.000097000055, y: 0.000077662204, z: 0.0008220778}
+      rotation: {x: -0, y: -0.022776833, z: -0.000000061467276, w: 0.9997406}
+      scale: {x: 0.9999993, y: 0.99999946, z: 0.999999}
+    - name: DEF-brow.T.L.003
+      parentName: brow.T.L.003
+      position: {x: -2.7939677e-11, y: -3.7252902e-11, z: 1.2107193e-10}
+      rotation: {x: 0.7165203, y: 0.50651306, z: 0.47433326, w: -0.0710714}
+      scale: {x: 0.8994511, y: 1.0167204, z: 1.0963231}
+    - name: DEF-brow.T.L.003_end
+      parentName: DEF-brow.T.L.003
+      position: {x: -0, y: 0.00012512929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.R
+      parentName: ORG-face
+      position: {x: 0.00047800003, y: -0.00006599391, z: 0.00045199986}
+      rotation: {x: -0.0000003874302, y: -0.30986413, z: -0.0000011771917, w: 0.95078087}
+      scale: {x: 0.9999999, y: 0.99999946, z: 0.9999996}
+    - name: DEF-cheek.T.R
+      parentName: brow.T.R
+      position: {x: 0.0000716529, y: -0.0000039993597, z: 0.00014577346}
+      rotation: {x: 0.80595475, y: -0.2656682, z: -0.45907763, w: 0.26287857}
+      scale: {x: 1.2312524, y: 1.197964, z: 0.70191985}
+    - name: DEF-cheek.T.R_end
+      parentName: DEF-cheek.T.R
+      position: {x: -0, y: 0.0002608677, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-brow.T.R
+      parentName: brow.T.R
+      position: {x: -5.5879353e-11, y: -1.0244548e-10, z: 1.5832484e-10}
+      rotation: {x: 0.48246816, y: 0.38475853, z: 0.12438386, w: 0.77699035}
+      scale: {x: 1.3367227, y: 0.810056, z: 0.9345173}
+    - name: DEF-brow.T.R_end
+      parentName: DEF-brow.T.R
+      position: {x: -0, y: 0.00021447841, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.R.001
+      parentName: ORG-face
+      position: {x: 0.00040199995, y: 0.000041999312, z: 0.0006209999}
+      rotation: {x: -0, y: 0.18011165, z: 0.00000068545336, w: 0.98364615}
+      scale: {x: 1, y: 0.99999946, z: 0.9999995}
+    - name: DEF-brow.T.R.001
+      parentName: brow.T.R.001
+      position: {x: -7.4505804e-11, y: -1.3038516e-10, z: 2.7939677e-11}
+      rotation: {x: -0.25022596, y: 0.55840087, z: 0.50232023, w: 0.6109418}
+      scale: {x: 1.1340027, y: 0.833026, z: 1.058673}
+    - name: DEF-brow.T.R.001_end
+      parentName: DEF-brow.T.R.001
+      position: {x: -0, y: 0.0002161505, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.R.002
+      parentName: ORG-face
+      position: {x: 0.00024100009, y: 0.00012199435, z: 0.0007410002}
+      rotation: {x: 0.00000020861623, y: 0.013381453, z: 0.000000059138976, w: 0.9999105}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: DEF-brow.T.R.002
+      parentName: brow.T.R.002
+      position: {x: -1.11758706e-10, y: -1.3038516e-10, z: 1.4901161e-10}
+      rotation: {x: -0.55663675, y: 0.58014053, z: 0.56544167, w: 0.18403329}
+      scale: {x: 0.9393696, y: 1.007039, z: 1.0624175}
+    - name: DEF-brow.T.R.002_end
+      parentName: DEF-brow.T.R.002
+      position: {x: -0, y: 0.00017110008, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: brow.T.R.003
+      parentName: ORG-face
+      position: {x: 0.00009699998, y: 0.00007766224, z: 0.0008220778}
+      rotation: {x: -0, y: 0.02277683, z: 0.000000106170745, w: 0.9997406}
+      scale: {x: 0.9999993, y: 0.99999946, z: 0.999999}
+    - name: DEF-brow.T.R.003
+      parentName: brow.T.R.003
+      position: {x: 3.7252902e-11, y: 7.4505804e-11, z: 8.8475643e-11}
+      rotation: {x: 0.7165203, y: -0.50651306, z: -0.47433332, w: -0.071071394}
+      scale: {x: 0.89945006, y: 1.0167187, z: 1.0963235}
+    - name: DEF-brow.T.R.003_end
+      parentName: DEF-brow.T.R.003
+      position: {x: -0, y: 0.00012512929, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw.L
+      parentName: ORG-face
+      position: {x: -0.00037999998, y: -0.00016798757, z: 0.0002749999}
+      rotation: {x: 0.0000001490116, y: -0.098042265, z: -0.00000031664965, w: 0.9951823}
+      scale: {x: 1.0000001, y: 0.99999946, z: 0.9999998}
+    - name: DEF-jaw.L
+      parentName: jaw.L
+      position: {x: -3.7252902e-11, y: -1.862645e-10, z: 1.8626451e-11}
+      rotation: {x: 0.9728154, y: 0.22811306, z: 0.0389971, w: 0.008597622}
+      scale: {x: 1.0739837, y: 0.80418277, z: 1.1543847}
+    - name: DEF-jaw.L_end
+      parentName: DEF-jaw.L
+      position: {x: -0, y: 0.00022437911, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jaw.R
+      parentName: ORG-face
+      position: {x: 0.00038, y: -0.0001679876, z: 0.00027499985}
+      rotation: {x: 0.0000001490116, y: 0.09804223, z: 0.00000036880368, w: 0.9951823}
+      scale: {x: 0.9999996, y: 0.99999946, z: 0.99999905}
+    - name: DEF-jaw.R
+      parentName: jaw.R
+      position: {x: 3.7252902e-11, y: 1.8626451e-11, z: 1.8626451e-11}
+      rotation: {x: 0.97281545, y: -0.22811307, z: -0.038997095, w: 0.008597645}
+      scale: {x: 1.0739844, y: 0.804184, z: 1.1543877}
+    - name: DEF-jaw.R_end
+      parentName: DEF-jaw.R
+      position: {x: -0, y: 0.00022437911, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose 1
+      parentName: ORG-face
+      position: {x: 3.7252902e-11, y: 0.000018001907, z: 0.00087392837}
+      rotation: {x: 0.000000029802322, y: 0.00090001913, z: -5.820766e-11, w: 0.99999964}
+      scale: {x: 1.0000005, y: 0.99999946, z: 0.99999994}
+    - name: DEF-nose
+      parentName: nose 1
+      position: {x: -9.3132255e-12, y: -3.7252902e-11, z: 2.3283063e-11}
+      rotation: {x: 0.9658354, y: 0.00000004502362, z: 0.0017385341, w: 0.25915074}
+      scale: {x: 0.99957025, y: 1.1012113, z: 0.9146477}
+    - name: DEF-nose_end
+      parentName: DEF-nose
+      position: {x: -0, y: 0.00015093035, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.L 1
+      parentName: ORG-face
+      position: {x: -0.0001217686, y: -0.00022714034, z: 0.0008909924}
+      rotation: {x: -0.0000014603136, y: 0.9391533, z: -0.00000026822087, w: -0.3434983}
+      scale: {x: 1.0000021, y: 0.99999946, z: 1.0000017}
+    - name: DEF-nose.L
+      parentName: nose.L 1
+      position: {x: -7.4505804e-11, y: -1.6763806e-10, z: 3.7252902e-11}
+      rotation: {x: -0.22940494, y: -0.679926, z: 0.69619304, w: -0.019730806}
+      scale: {x: 1.3316644, y: 0.79364175, z: 0.9620124}
+    - name: DEF-nose.L_end
+      parentName: DEF-nose.L
+      position: {x: -0, y: 0.00013396442, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.R 1
+      parentName: ORG-face
+      position: {x: 0.00012207929, y: -0.00022743845, z: 0.0008909811}
+      rotation: {x: 0.0000013709068, y: 0.9391534, z: -0.00000035762787, w: 0.3434983}
+      scale: {x: 1.0000017, y: 0.99999964, z: 1.0000019}
+    - name: DEF-nose.R
+      parentName: nose.R 1
+      position: {x: 3.7252902e-11, y: 2.2351741e-10, z: 0}
+      rotation: {x: 0.22940506, y: -0.679926, z: 0.6961931, w: 0.019730732}
+      scale: {x: 1.3245925, y: 0.8021443, z: 0.95690334}
+    - name: DEF-nose.R_end
+      parentName: DEF-nose.R
+      position: {x: -0, y: 0.00013396442, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-jaw_master
+      parentName: ORG-face
+      position: {x: 3.7252902e-11, y: -0.00010966174, z: 0.00030027668}
+      rotation: {x: 0.89740205, y: -0.000000005136401, z: 0.0000000104471445, w: 0.44121385}
+      scale: {x: 1, y: 1.1069368, z: 0.90156615}
+    - name: lip.B
+      parentName: MCH-jaw_master
+      position: {x: 3.7252902e-11, y: 0.00068256026, z: -0.00020815543}
+      rotation: {x: -0.8973754, y: -0.0033973202, z: 0.0069099143, w: 0.44120076}
+      scale: {x: 0.99980205, y: 2.4497697, z: 0.4684511}
+    - name: DEF-lip.B.L
+      parentName: lip.B
+      position: {x: -6.0535965e-11, y: -7.4505804e-11, z: 2.3283064e-12}
+      rotation: {x: -0.62274337, y: 0.32530174, z: 0.33495566, w: 0.6278329}
+      scale: {x: 0.99212015, y: 0.9899134, z: 1.0102177}
+    - name: DEF-lip.B.L_end
+      parentName: DEF-lip.B.L
+      position: {x: -0, y: 0.00012485193, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-lip.B.R
+      parentName: lip.B
+      position: {x: -6.0535965e-11, y: -7.4505804e-11, z: 2.3283064e-12}
+      rotation: {x: -0.62782747, y: -0.31559473, z: -0.32532635, w: 0.63276815}
+      scale: {x: 0.9599161, y: 1.0203171, z: 1.0102385}
+    - name: DEF-lip.B.R_end
+      parentName: DEF-lip.B.R
+      position: {x: -0, y: 0.00012485193, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-jaw_master.001
+      parentName: ORG-face
+      position: {x: 5.5879353e-11, y: -0.00012424323, z: 0.0002939574}
+      rotation: {x: 0.8974019, y: 0.0000000051364117, z: -0.000000010447125, w: 0.44121397}
+      scale: {x: 1.0000006, y: 1.1069505, z: 0.9015524}
+    - name: lip.B.L.001 1
+      parentName: MCH-jaw_master.001
+      position: {x: -0.00010200025, y: 0.0006255446, z: -0.00016418725}
+      rotation: {x: -0.895328, y: -0.029979605, z: 0.06097628, w: 0.44019425}
+      scale: {x: 0.98482484, y: 2.4497752, z: 0.4743767}
+    - name: DEF-lip.B.L.001
+      parentName: lip.B.L.001 1
+      position: {x: 4.6566126e-11, y: -7.4505804e-11, z: -1.8626451e-11}
+      rotation: {x: -0.5602958, y: 0.20911495, z: 0.2877782, w: 0.7480129}
+      scale: {x: 0.9731929, y: 0.67371184, z: 1.3259264}
+    - name: DEF-lip.B.L.001_end
+      parentName: DEF-lip.B.L.001
+      position: {x: -0, y: 0.00037763722, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.B.R.001 1
+      parentName: MCH-jaw_master.001
+      position: {x: 0.00010200012, y: 0.00062554434, z: -0.00016418715}
+      rotation: {x: -0.8953279, y: 0.029979648, z: -0.060976267, w: 0.44019425}
+      scale: {x: 0.98482454, y: 2.4497752, z: 0.47437683}
+    - name: DEF-lip.B.R.001
+      parentName: lip.B.R.001 1
+      position: {x: 4.6566126e-11, y: 1.3038516e-10, z: -5.5879353e-11}
+      rotation: {x: -0.5602958, y: -0.20911497, z: -0.28777814, w: 0.748013}
+      scale: {x: 0.9731944, y: 0.67371154, z: 1.3259269}
+    - name: DEF-lip.B.R.001_end
+      parentName: DEF-lip.B.R.001
+      position: {x: -0, y: 0.00037763722, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-jaw_master.002
+      parentName: ORG-face
+      position: {x: -1.8626451e-11, y: -0.00014757358, z: 0.00028384678}
+      rotation: {x: 0.897402, y: 0.000000036652125, z: 0.000000030992762, w: 0.44121388}
+      scale: {x: 1.0000002, y: 1.1069733, z: 0.90153134}
+    - name: cheek.B.L.001
+      parentName: MCH-jaw_master.002
+      position: {x: -0.0004479999, y: 0.00023293927, z: -0.00012533582}
+      rotation: {x: -0.89735013, y: 0.0047429553, z: -0.009646878, w: 0.44118854}
+      scale: {x: 0.99961543, y: 2.4497933, z: 0.46852654}
+    - name: DEF-cheek.B.L.001
+      parentName: cheek.B.L.001
+      position: {x: 2.7939677e-11, y: -9.313225e-11, z: 2.3283064e-12}
+      rotation: {x: -0.26403707, y: 0.072097935, z: 0.0664474, w: 0.9595161}
+      scale: {x: 0.99030846, y: 0.6071396, z: 2.0495238}
+    - name: DEF-cheek.B.L.001_end
+      parentName: DEF-cheek.B.L.001
+      position: {x: -0, y: 0.00017023816, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cheek.B.R.001
+      parentName: MCH-jaw_master.002
+      position: {x: 0.00044799998, y: 0.00023293922, z: -0.00012533582}
+      rotation: {x: -0.89735013, y: -0.0047429884, z: 0.009646845, w: 0.44118854}
+      scale: {x: 0.9996151, y: 2.4497921, z: 0.46852633}
+    - name: DEF-cheek.B.R.001
+      parentName: cheek.B.R.001
+      position: {x: -1.8626451e-11, y: 1.6763806e-10, z: -4.6566128e-12}
+      rotation: {x: -0.26403707, y: -0.07209799, z: -0.066447504, w: 0.959516}
+      scale: {x: 0.990309, y: 0.6071401, z: 2.0495236}
+    - name: DEF-cheek.B.R.001_end
+      parentName: DEF-cheek.B.R.001
+      position: {x: -0, y: 0.00017023816, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lips.L
+      parentName: MCH-jaw_master.002
+      position: {x: -0.000314, y: 0.00033827138, z: -0.000041146755}
+      rotation: {x: -0.89729697, y: 0.0067503126, z: -0.0137297185, w: 0.44116232}
+      scale: {x: 0.9992203, y: 2.4497936, z: 0.4686803}
+    - name: DEF-cheek.B.L
+      parentName: lips.L
+      position: {x: 0.00002799704, y: -5.5879353e-11, z: -0.00003215843}
+      rotation: {x: -0.2461711, y: 0.4994108, z: 0.35194236, w: 0.7524129}
+      scale: {x: 0.62873286, y: 1.0062343, z: 1.3840276}
+    - name: DEF-cheek.B.L_end
+      parentName: DEF-cheek.B.L
+      position: {x: -0, y: 0.00020756442, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lips.R
+      parentName: MCH-jaw_master.002
+      position: {x: 0.000314, y: 0.00033827132, z: -0.000041146828}
+      rotation: {x: -0.89729697, y: -0.0067503736, z: 0.013729686, w: 0.44116232}
+      scale: {x: 0.9992202, y: 2.4497936, z: 0.46868038}
+    - name: DEF-cheek.B.R
+      parentName: lips.R
+      position: {x: -0.000027996897, y: 1.4901161e-10, z: -0.000032158598}
+      rotation: {x: -0.24617109, y: -0.49941075, z: -0.35194233, w: 0.752413}
+      scale: {x: 0.6287331, y: 1.006236, z: 1.3840266}
+    - name: DEF-cheek.B.R_end
+      parentName: DEF-cheek.B.R
+      position: {x: -0, y: 0.00020756442, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-jaw_master.003
+      parentName: ORG-face
+      position: {x: 9.313225e-11, y: -0.00016215496, z: 0.00027752764}
+      rotation: {x: 0.8974019, y: 0.000000005310724, z: 0.000000015583549, w: 0.44121397}
+      scale: {x: 1.0000005, y: 1.1069896, z: 0.90151995}
+    - name: lip.T.L.001 1
+      parentName: MCH-jaw_master.003
+      position: {x: -0.00011295724, y: 0.0006309511, z: -0.00014919136}
+      rotation: {x: -0.89729697, y: 0.006750371, z: -0.013729728, w: 0.4411623}
+      scale: {x: 0.99922043, y: 2.4497967, z: 0.46868077}
+    - name: DEF-lip.T.L.001
+      parentName: lip.T.L.001 1
+      position: {x: 2.3283063e-11, y: -2.7939677e-11, z: -3.3760442e-11}
+      rotation: {x: -0.6368598, y: 0.17600967, z: 0.15662193, w: 0.734098}
+      scale: {x: 0.9534136, y: 0.8629327, z: 1.1125879}
+    - name: DEF-lip.T.L.001_end
+      parentName: DEF-lip.T.L.001
+      position: {x: -0, y: 0.00035770322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.T.R.001 1
+      parentName: MCH-jaw_master.003
+      position: {x: 0.0001082292, y: 0.00063779374, z: -0.00014693708}
+      rotation: {x: -0.89729697, y: -0.006750319, z: 0.013729702, w: 0.4411623}
+      scale: {x: 0.99922043, y: 2.449798, z: 0.46868107}
+    - name: DEF-lip.T.R.001
+      parentName: lip.T.R.001 1
+      position: {x: 1.8626451e-11, y: -1.862645e-10, z: 4.6566126e-11}
+      rotation: {x: -0.63685983, y: -0.17600983, z: -0.15662204, w: 0.73409796}
+      scale: {x: 0.94400364, y: 0.8802335, z: 1.1015954}
+    - name: DEF-lip.T.R.001_end
+      parentName: DEF-lip.T.R.001
+      position: {x: -0, y: 0.00035770322, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lip.T
+      parentName: MCH-jaw_master.003
+      position: {x: 0.0000009927852, y: 0.0006762786, z: -0.00022515036}
+      rotation: {x: -0.8967893, y: -0.016299251, z: 0.033151373, w: 0.4409128}
+      scale: {x: 0.995469, y: 2.4497983, z: 0.47014752}
+    - name: DEF-lip.T.L
+      parentName: lip.T
+      position: {x: -4.6566128e-12, y: -8.381903e-11, z: -1.8626451e-11}
+      rotation: {x: -0.63805896, y: 0.3554439, z: 0.40366626, w: 0.5509937}
+      scale: {x: 1.1580123, y: 0.92172384, z: 0.9879755}
+    - name: DEF-lip.T.L_end
+      parentName: DEF-lip.T.L
+      position: {x: -0, y: 0.0001641158, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-lip.T.R
+      parentName: lip.T
+      position: {x: -4.6566128e-12, y: -8.381903e-11, z: -1.8626451e-11}
+      rotation: {x: -0.6661202, y: -0.31379095, z: -0.35545656, w: 0.57573414}
+      scale: {x: 1.0214416, y: 1.0005429, z: 1.0128658}
+    - name: DEF-lip.T.R_end
+      parentName: DEF-lip.T.R
+      position: {x: -0, y: 0.0001641158, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-jaw_master.004
+      parentName: ORG-face
+      position: {x: -1.8626451e-11, y: -0.00016652938, z: 0.00027563184}
+      rotation: {x: 0.8974019, y: -0.000000010447132, z: -0.000000005136403, w: 0.44121397}
+      scale: {x: 1.0000005, y: 1.1069934, z: 0.9015164}
+    - name: nose_master
+      parentName: MCH-jaw_master.004
+      position: {x: 9.778887e-11, y: 0.00066876184, z: -0.00032126112}
+      rotation: {x: -0.000000040568175, y: 0.9465438, z: -0.3225754, w: 0.000000010772803}
+      scale: {x: 1.000002, y: 0.46837658, z: 2.449803}
+    - name: nose.002 1
+      parentName: nose_master
+      position: {x: -7.916242e-11, y: 0.000044586966, z: 0.00009933444}
+      rotation: {x: -0.0000001317089, y: -0.70710814, z: -0.7071055, w: -0.000000032927495}
+      scale: {x: 1.0000017, y: 1.0000063, z: 0.99999416}
+    - name: DEF-nose.002
+      parentName: nose.002 1
+      position: {x: -1.0244548e-10, y: -4.6566126e-11, z: 1.7229468e-10}
+      rotation: {x: 0.9850936, y: -0.00000004605911, z: -0.00000026376404, w: -0.17201956}
+      scale: {x: 1.0000315, y: 1.4055027, z: 0.5889234}
+    - name: DEF-nose.002_end
+      parentName: DEF-nose.002
+      position: {x: -0, y: 0.000071577226, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.001 1
+      parentName: nose.002 1
+      position: {x: -1.5832484e-10, y: 0.00010999206, z: -0.000095873074}
+      rotation: {x: 0.000000058721074, y: -0.012649501, z: -0.00000007123891, w: 0.99992007}
+      scale: {x: 1.0000007, y: 0.99999917, z: 1.0000008}
+    - name: DEF-nose.001
+      parentName: nose.001 1
+      position: {x: 5.5879353e-11, y: 2.0489097e-10, z: 1.8626451e-11}
+      rotation: {x: 0.93613917, y: -0.00000062165753, z: -0.023689816, w: 0.35083088}
+      scale: {x: 0.9970279, y: 0.5585969, z: 2.0034635}
+    - name: DEF-nose.001_end
+      parentName: DEF-nose.001
+      position: {x: -0, y: 0.00014591658, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.003 1
+      parentName: nose.002 1
+      position: {x: -2.7939677e-11, y: -0.00006733665, z: -0.000024257719}
+      rotation: {x: 0.00000011920926, y: 0.000000023283098, z: 0.000000011641515, w: 1}
+      scale: {x: 1.0000001, y: 0.999999, z: 1.0000001}
+    - name: DEF-nose.003
+      parentName: nose.003 1
+      position: {x: 9.3132255e-12, y: 5.5879353e-11, z: -1.9324943e-10}
+      rotation: {x: 0.96022594, y: -0.000000017047402, z: -0.00000022539388, w: -0.27922428}
+      scale: {x: 1.0000229, y: 1.7009476, z: 0.5278753}
+    - name: DEF-nose.003_end
+      parentName: DEF-nose.003
+      position: {x: -0, y: 0.000037911144, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.004 1
+      parentName: nose_master
+      position: {x: -1.3969838e-11, y: -5.5879353e-11, z: 7.4505804e-11}
+      rotation: {x: -0.0000001317089, y: -0.70710814, z: -0.7071055, w: -0.000000032927495}
+      scale: {x: 1.0000017, y: 1.0000063, z: 0.99999416}
+    - name: DEF-nose.004
+      parentName: nose.004 1
+      position: {x: -1.8626451e-11, y: 1.862645e-10, z: 1.2107193e-10}
+      rotation: {x: 0.93218076, y: -0.00000006194582, z: -0.00000028815697, w: -0.36199325}
+      scale: {x: 0.8629069, y: 2.563036, z: 0.46170896}
+    - name: DEF-nose.004_end
+      parentName: DEF-nose.004
+      position: {x: -0, y: 0.0000433639, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.L.001 1
+      parentName: nose_master
+      position: {x: 0.0000684933, y: 0.000015123877, z: 0.000078359}
+      rotation: {x: -0.17863484, y: -0.68417174, z: -0.68416935, w: -0.17863698}
+      scale: {x: 0.9999993, y: 1.0000066, z: 0.9999986}
+    - name: DEF-nose.L.001
+      parentName: nose.L.001 1
+      position: {x: 2.0023434e-10, y: 1.862645e-10, z: 1.8626451e-11}
+      rotation: {x: 0.5381335, y: 0.58464396, z: 0.36865115, w: -0.48239005}
+      scale: {x: 1.6590412, y: 0.92155373, z: 0.7901725}
+    - name: DEF-nose.L.001_end
+      parentName: DEF-nose.L.001
+      position: {x: -0, y: 0.00008278657, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nose.R.001 1
+      parentName: nose_master
+      position: {x: -0.000068099485, y: 0.00001630401, z: 0.00007716631}
+      rotation: {x: 0.17863482, y: -0.6841716, z: -0.68416923, w: 0.17863709}
+      scale: {x: 0.9999997, y: 1.000006, z: 0.99999857}
+    - name: DEF-nose.R.001
+      parentName: nose.R.001 1
+      position: {x: -2.7939677e-11, y: 5.5879353e-11, z: -3.7252902e-11}
+      rotation: {x: -0.53813356, y: 0.58464396, z: 0.36865118, w: 0.48238993}
+      scale: {x: 1.6639495, y: 0.91614014, z: 0.79250026}
+    - name: DEF-nose.R.001_end
+      parentName: DEF-nose.R.001
+      position: {x: -0, y: 0.00008278657, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cheek.T.L.001 1
+      parentName: MCH-jaw_master.004
+      position: {x: -0.00030800002, y: 0.00041051308, z: -0.00020292476}
+      rotation: {x: -0.8689686, y: 0.11018465, z: -0.22410633, w: 0.42723456}
+      scale: {x: 0.826576, y: 2.4497988, z: 0.5524712}
+    - name: DEF-cheek.T.L.001
+      parentName: cheek.T.L.001 1
+      position: {x: -3.7252902e-11, y: 1.8626451e-11, z: -7.4505804e-11}
+      rotation: {x: 0.14830434, y: -0.63389486, z: -0.64227504, w: 0.4045566}
+      scale: {x: 0.53164977, y: 1.5901482, z: 1.4244623}
+    - name: DEF-cheek.T.L.001_end
+      parentName: DEF-cheek.T.L.001
+      position: {x: -0, y: 0.00025197145, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cheek.T.R.001 1
+      parentName: MCH-jaw_master.004
+      position: {x: 0.00030799996, y: 0.00041051302, z: -0.00020292496}
+      rotation: {x: -0.8689686, y: -0.11018465, z: 0.22410643, w: 0.42723456}
+      scale: {x: 0.8265759, y: 2.4497974, z: 0.552471}
+    - name: DEF-cheek.T.R.001
+      parentName: cheek.T.R.001 1
+      position: {x: -1.11758706e-10, y: -9.313225e-11, z: -3.7252902e-11}
+      rotation: {x: 0.14830427, y: 0.6338949, z: 0.6422751, w: 0.40455648}
+      scale: {x: 0.5319384, y: 1.588425, z: 1.4252359}
+    - name: DEF-cheek.T.R.001_end
+      parentName: DEF-cheek.T.R.001
+      position: {x: -0, y: 0.00025197145, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tweak_spine.003
+      parentName: spine_fk.003
+      position: {x: 7.37631e-12, y: 8.731149e-11, z: -4.6566126e-11}
+      rotation: {x: -0, y: 0.000000011691907, z: -1.7305046e-10, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: ORG-spine.003
+      parentName: tweak_spine.003
+      position: {x: 8.1882105e-11, y: -5.122274e-11, z: 9.778887e-11}
+      rotation: {x: -2.4391315e-18, y: -1.6589397e-11, z: 2.0886262e-10, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1.0000001}
+    - name: ORG-Breast.C
+      parentName: ORG-spine.003
+      position: {x: -1.8377445e-11, y: 0.0005589051, z: 0.0004311401}
+      rotation: {x: 0.6346336, y: 0.0000057668854, z: 0.000004756766, w: 0.77281326}
+      scale: {x: 1.0000004, y: 1.0000024, z: 1.0000017}
+    - name: DEF-Breast.C
+      parentName: ORG-Breast.C
+      position: {x: 2.6290081e-11, y: -1.8626451e-11, z: -1.8626451e-11}
+      rotation: {x: -0, y: -0.0000000010045368, z: 0.0000000118113785, w: 1}
+      scale: {x: 1, y: 1.0000031, z: 1.000003}
+    - name: DEF-Breast.C_end
+      parentName: DEF-Breast.C
+      position: {x: -0, y: 0.00042900397, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-shoulder.L
+      parentName: ORG-spine.003
+      position: {x: -0.000110999885, y: 0.00051110785, z: -0.00017569477}
+      rotation: {x: -0.49243155, y: 0.7377485, z: 0.37617123, w: 0.2678313}
+      scale: {x: 1.0000058, y: 1.000006, z: 1.0000001}
+    - name: DEF-shoulder.L
+      parentName: ORG-shoulder.L
+      position: {x: 9.313225e-11, y: 1.816079e-10, z: -1.11758706e-10}
+      rotation: {x: -0.00000010966322, y: 0.0000004861503, z: 0.000000014901159, w: 1}
+      scale: {x: 1.0000021, y: 1.0000027, z: 1.0000001}
+    - name: DEF-shoulder.L_end
+      parentName: DEF-shoulder.L
+      position: {x: -0, y: 0.0007976384, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-upper_arm.L
+      parentName: ORG-shoulder.L
+      position: {x: 0.000032687716, y: 0.0006895269, z: -0.0001444776}
+      rotation: {x: -0.13255636, y: -0.2517417, z: -0.13232279, w: 0.9494976}
+      scale: {x: 1.006644, y: 0.9866284, z: 1.0067941}
+    - name: DEF-upper_arm.L.001
+      parentName: DEF-upper_arm.L
+      position: {x: -1.8626451e-11, y: 0.00039677214, z: 1.0244548e-10}
+      rotation: {x: -0.000000029802315, y: -0.0000018775459, z: 0.000000014901158, w: 1}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1}
+    - name: DEF-forearm.L
+      parentName: DEF-upper_arm.L.001
+      position: {x: -4.1909514e-11, y: 0.00039677217, z: -9.3132255e-12}
+      rotation: {x: 0.038901262, y: 0.0036486057, z: -0.011309272, w: 0.99917245}
+      scale: {x: 0.9994569, y: 0.9944864, z: 1.0061032}
+    - name: DEF-forearm.L.001
+      parentName: DEF-forearm.L
+      position: {x: -0, y: 0.00045112995, z: 0}
+      rotation: {x: -0.000000029802315, y: 0.00000007022196, z: 0.000000024900311, w: 1}
+      scale: {x: 1.0000092, y: 1.0000039, z: 0.9999943}
+    - name: DEF-hand.L
+      parentName: DEF-forearm.L.001
+      position: {x: 6.635673e-11, y: 0.0004511298, z: -9.3132255e-12}
+      rotation: {x: 0.09283692, y: 0.02430541, z: 0.068495184, w: 0.9930251}
+      scale: {x: 0.9939579, y: 0.92179954, z: 1.0916764}
+    - name: DEF-hand.L.001
+      parentName: DEF-hand.L
+      position: {x: -7.1304386e-11, y: 0.00008112911, z: 9.225914e-11}
+      rotation: {x: -0.00000032782546, y: 0.00000020069997, z: 0.000000031781376, w: 1}
+      scale: {x: 1.0000005, y: 1.0000018, z: 0.99999875}
+    - name: DEF-f_toe.L
+      parentName: DEF-hand.L.001
+      position: {x: -1.5133991e-11, y: 0.000081129125, z: -5.4133125e-11}
+      rotation: {x: 0.05516262, y: 0.059001043, z: 0.58045155, w: 0.81027895}
+      scale: {x: 0.99998695, y: 0.9505318, z: 1.0485885}
+    - name: ORG-f_palm.004.L
+      parentName: DEF-f_toe.L
+      position: {x: 0.000065635526, y: 0.000017470838, z: -0.00000023375031}
+      rotation: {x: 0.38898742, y: -0.2902337, z: -0.53347254, w: 0.6927195}
+      scale: {x: 0.9455643, y: 0.824896, z: 1.2731861}
+    - name: DEF-f_pinky.001.L
+      parentName: ORG-f_palm.004.L
+      position: {x: 0.000000015326076, y: 0.000029068811, z: -0.000025998186}
+      rotation: {x: 0.06210763, y: -0.89917177, z: 0.412898, w: -0.13095087}
+      scale: {x: 1.0207312, y: 1.4358102, z: 0.7470632}
+    - name: DEF-f_pinky.002.L
+      parentName: DEF-f_pinky.001.L
+      position: {x: -2.7939677e-11, y: 0.000034263394, z: 1.6880221e-11}
+      rotation: {x: 0.15991098, y: -0.00030971304, z: -0.000049382426, w: 0.9871314}
+      scale: {x: 1.0001252, y: 1.051681, z: 0.95225996}
+    - name: DEF-f_pinky.002.L_end
+      parentName: DEF-f_pinky.002.L
+      position: {x: -0, y: 0.00007588157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.004.L
+      parentName: ORG-f_palm.004.L
+      position: {x: 3.6961864e-11, y: 4.1909514e-11, z: 4.6566128e-12}
+      rotation: {x: -0.00000020861616, y: 0.000005669889, z: 0.000000020489088, w: 1}
+      scale: {x: 0.99999636, y: 1.0000033, z: 1.000009}
+    - name: DEF-f_palm.004.L_end
+      parentName: DEF-f_palm.004.L
+      position: {x: -0, y: 0.000029068853, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-f_palm.001.L
+      parentName: DEF-f_toe.L
+      position: {x: -0.00008428935, y: 0.000019650235, z: 0.0000055003443}
+      rotation: {x: 0.279146, y: -0.029791495, z: 0.14429231, w: 0.9488781}
+      scale: {x: 0.98164284, y: 0.7944202, z: 1.2731354}
+    - name: DEF-f_index.001.L
+      parentName: ORG-f_palm.001.L
+      position: {x: -0.000000009019859, y: 0.000055659635, z: -0.000022998447}
+      rotation: {x: -0.069090426, y: -0.9769697, z: 0.19729446, w: -0.04279774}
+      scale: {x: 0.97237206, y: 1.6816173, z: 0.6883034}
+    - name: DEF-f_index.002.L
+      parentName: DEF-f_index.001.L
+      position: {x: -9.3132255e-12, y: 0.000044787852, z: -1.44355e-10}
+      rotation: {x: 0.067536555, y: -0.000029657025, z: -0.0000006780026, w: 0.9977168}
+      scale: {x: 0.9999649, y: 0.92732567, z: 1.1027155}
+    - name: DEF-f_index.002.L_end
+      parentName: DEF-f_index.002.L
+      position: {x: -0, y: 0.000064015716, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.001.L
+      parentName: ORG-f_palm.001.L
+      position: {x: 5.3551046e-11, y: -2.3283064e-12, z: -3.259629e-11}
+      rotation: {x: -0.00000008940696, y: -0.0000020600853, z: -0.00000003073364, w: 1}
+      scale: {x: 1.0000019, y: 1.0000006, z: 1.0000023}
+    - name: DEF-f_palm.001.L_end
+      parentName: DEF-f_palm.001.L
+      position: {x: -0, y: 0.000055659562, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-f_palm.002.L
+      parentName: DEF-f_toe.L
+      position: {x: -0.00003991356, y: 0.00001863329, z: 0.0000035655055}
+      rotation: {x: -0.0040598, y: -0.95979214, z: -0.28033867, w: 0.013889709}
+      scale: {x: 0.99972504, y: 0.7794998, z: 1.2730972}
+    - name: DEF-f_middle.001.L
+      parentName: ORG-f_palm.002.L
+      position: {x: -1.8626451e-11, y: 0.000066999964, z: -0.000006999555}
+      rotation: {x: 0.19045152, y: 0.00002570915, z: 0.0000028121276, w: 0.98169667}
+      scale: {x: 0.99999815, y: 1.6799726, z: 0.6772255}
+    - name: DEF-f_middle.002.L
+      parentName: DEF-f_middle.001.L
+      position: {x: -9.3132255e-12, y: 0.000066849985, z: 1.03318595e-11}
+      rotation: {x: 0.0726789, y: -0.000017511014, z: 0.0000019867527, w: 0.99735546}
+      scale: {x: 0.9999999, y: 0.91786385, z: 1.1160686}
+    - name: DEF-f_middle.002.L_end
+      parentName: DEF-f_middle.002.L
+      position: {x: -0, y: 0.0001030776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.002.L
+      parentName: ORG-f_palm.002.L
+      position: {x: 6.519258e-11, y: 1.2107193e-10, z: -1.8626451e-11}
+      rotation: {x: 0.000000011779771, y: 0.0000016205007, z: 0.00000006938351, w: 1}
+      scale: {x: 0.9999991, y: 1.0000029, z: 1.0000049}
+    - name: DEF-f_palm.002.L_end
+      parentName: DEF-f_palm.002.L
+      position: {x: -0, y: 0.00006699988, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-f_palm.003.L
+      parentName: DEF-f_toe.L
+      position: {x: 0.000028057842, y: 0.00001863312, z: 0.0000015969994}
+      rotation: {x: 0.28044683, y: 0.006954289, z: 0.0016872721, w: 0.9598429}
+      scale: {x: 0.99991745, y: 0.7793623, z: 1.273092}
+    - name: DEF-f_ring.001.L
+      parentName: ORG-f_palm.003.L
+      position: {x: 0.00000007079914, y: 0.00006700761, z: 0.000006999257}
+      rotation: {x: -0.006367348, y: -0.98164946, z: 0.19048072, w: 0.006400811}
+      scale: {x: 0.9993858, y: 1.6808002, z: 0.6773238}
+    - name: DEF-f_ring.002.L
+      parentName: DEF-f_ring.001.L
+      position: {x: -1.44355e-10, y: 0.000066850014, z: -7.916242e-11}
+      rotation: {x: 0.072330825, y: -0.000014311165, z: 0.0000023203897, w: 0.9973807}
+      scale: {x: 1.0000027, y: 0.9181509, z: 1.1156473}
+    - name: DEF-f_ring.002.L_end
+      parentName: DEF-f_ring.002.L
+      position: {x: -0, y: 0.0000972471, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.003.L
+      parentName: ORG-f_palm.003.L
+      position: {x: 6.984919e-11, y: -3.259629e-11, z: 1.0244548e-10}
+      rotation: {x: -0.000000029802312, y: 0.00000044377504, z: -0.00000004167667, w: 1}
+      scale: {x: 1.0000011, y: 0.9999997, z: 1.0000014}
+    - name: DEF-f_palm.003.L_end
+      parentName: DEF-f_palm.003.L
+      position: {x: -0, y: 0.00006700756, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-shoulder.R
+      parentName: ORG-spine.003
+      position: {x: 0.00011100007, y: 0.0005111079, z: -0.00017569477}
+      rotation: {x: 0.5131633, y: 0.75376135, z: 0.2578944, w: -0.31937087}
+      scale: {x: 1.000007, y: 1.0000062, z: 1.0000001}
+    - name: DEF-shoulder.R
+      parentName: ORG-shoulder.R
+      position: {x: 1.3038516e-10, y: 1.4901161e-10, z: 8.876668e-11}
+      rotation: {x: -0.00000010617076, y: -0.0000004805624, z: -0.000000014901159, w: 1}
+      scale: {x: 1.0000011, y: 1.0000026, z: 1.0000002}
+    - name: DEF-shoulder.R_end
+      parentName: DEF-shoulder.R
+      position: {x: -0, y: 0.0007976384, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-upper_arm.R
+      parentName: ORG-shoulder.R
+      position: {x: -0.00003268771, y: 0.0006895269, z: -0.0001444775}
+      rotation: {x: -0.099655256, y: 0.24793755, z: 0.12897731, w: 0.95496637}
+      scale: {x: 1.0041825, y: 0.9914768, z: 1.0043243}
+    - name: DEF-upper_arm.R.001
+      parentName: DEF-upper_arm.R
+      position: {x: -1.6298145e-11, y: 0.0003967723, z: 4.6566128e-12}
+      rotation: {x: -0.000000029802315, y: 0.000001892447, z: 0.000000007450579, w: 1}
+      scale: {x: 1.0000021, y: 1.0000011, z: 0.9999986}
+    - name: DEF-forearm.R
+      parentName: DEF-upper_arm.R.001
+      position: {x: -2.5320333e-11, y: 0.00039677232, z: -8.381903e-11}
+      rotation: {x: 0.04016963, y: -0.0031919458, z: 0.01000265, w: 0.9991377}
+      scale: {x: 0.9996555, y: 0.996463, z: 1.0038854}
+    - name: DEF-forearm.R.001
+      parentName: DEF-forearm.R
+      position: {x: 1.4115357e-11, y: 0.0004511299, z: 2.561137e-11}
+      rotation: {x: 0.000000029802312, y: -0.00000006689002, z: -0.0000000142324925, w: 1}
+      scale: {x: 1.0000035, y: 1.0000036, z: 0.99999845}
+    - name: DEF-hand.R
+      parentName: DEF-forearm.R.001
+      position: {x: 4.4819898e-11, y: 0.00045112977, z: -2.0954757e-11}
+      rotation: {x: 0.07515476, y: -0.014250451, z: -0.03649017, w: 0.9964021}
+      scale: {x: 0.99620724, y: 0.9496722, z: 1.0570885}
+    - name: DEF-hand.R.001
+      parentName: DEF-hand.R
+      position: {x: -9.3132255e-12, y: 0.00008112914, z: -1.3038516e-10}
+      rotation: {x: -0.00000035762778, y: -0.00000019581053, z: 4.0745354e-10, w: 1}
+      scale: {x: 1.0000025, y: 1.0000026, z: 0.9999998}
+    - name: DEF-f_toe.R
+      parentName: DEF-hand.R.001
+      position: {x: 2.9685907e-11, y: 0.00008112924, z: -1.11758706e-10}
+      rotation: {x: 0.056586273, y: -0.060288966, z: -0.57374996, w: 0.81484604}
+      scale: {x: 0.9999931, y: 0.96884406, z: 1.0308033}
+    - name: ORG-f_palm.004.R
+      parentName: DEF-f_toe.R
+      position: {x: -0.00006563549, y: 0.000017470707, z: -0.00000023394823}
+      rotation: {x: 0.36468732, y: 0.23544787, z: 0.55824447, w: 0.7070578}
+      scale: {x: 0.9653004, y: 0.8858755, z: 1.1661992}
+    - name: DEF-f_pinky.001.R
+      parentName: ORG-f_palm.004.R
+      position: {x: -0.00000001534354, y: 0.000029068748, z: -0.00002599823}
+      rotation: {x: -0.057270247, y: -0.91041934, z: 0.3897531, w: 0.12629074}
+      scale: {x: 1.011057, y: 1.2418684, z: 0.82544714}
+    - name: DEF-f_pinky.002.R
+      parentName: DEF-f_pinky.001.R
+      position: {x: -4.8894434e-11, y: 0.00003426345, z: -3.4924594e-11}
+      rotation: {x: 0.15991102, y: 0.0003096982, z: 0.000049352635, w: 0.9871314}
+      scale: {x: 1.000073, y: 1.0358787, z: 0.96572554}
+    - name: DEF-f_pinky.002.R_end
+      parentName: DEF-f_pinky.002.R
+      position: {x: -0, y: 0.00007588157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.004.R
+      parentName: ORG-f_palm.004.R
+      position: {x: -3.259629e-11, y: -9.3132255e-12, z: 3.4924594e-11}
+      rotation: {x: -0.0000002980231, y: -0.000005595384, z: -0.00000008568165, w: 1}
+      scale: {x: 1.0000014, y: 1.0000036, z: 1.0000077}
+    - name: DEF-f_palm.004.R_end
+      parentName: DEF-f_palm.004.R
+      position: {x: -0, y: 0.000029068853, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-f_palm.001.R
+      parentName: DEF-f_toe.R
+      position: {x: 0.00008428916, y: 0.000019650348, z: 0.0000055002934}
+      rotation: {x: 0.27914605, y: 0.02979143, z: -0.14429234, w: 0.9488781}
+      scale: {x: 0.98834795, y: 0.865136, z: 1.1661707}
+    - name: DEF-f_index.001.R
+      parentName: ORG-f_palm.001.R
+      position: {x: 0.000000009080395, y: 0.000055659504, z: -0.000022998356}
+      rotation: {x: 0.06909041, y: -0.9769697, z: 0.19729452, w: 0.042797826}
+      scale: {x: 0.98277515, y: 1.3636167, z: 0.7818099}
+    - name: DEF-f_index.002.R
+      parentName: DEF-f_index.001.R
+      position: {x: -6.519258e-11, y: 0.00004478784, z: 1.3969838e-11}
+      rotation: {x: 0.06753657, y: 0.000029589974, z: 0.0000006258486, w: 0.9977168}
+      scale: {x: 0.99998075, y: 0.95540947, z: 1.05479}
+    - name: DEF-f_index.002.R_end
+      parentName: DEF-f_index.002.R
+      position: {x: -0, y: 0.000064015716, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.001.R
+      parentName: ORG-f_palm.001.R
+      position: {x: -2.3283063e-11, y: -1.8626451e-11, z: 4.6566126e-11}
+      rotation: {x: -0.00000014901158, y: 0.0000021122391, z: 0.000000013038513, w: 1}
+      scale: {x: 1.0000037, y: 1.0000004, z: 1.0000027}
+    - name: DEF-f_palm.001.R_end
+      parentName: DEF-f_palm.001.R
+      position: {x: -0, y: 0.000055659562, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-f_palm.002.R
+      parentName: DEF-f_toe.R
+      position: {x: 0.000039913542, y: 0.00001863312, z: 0.000003565303}
+      rotation: {x: 0.0040598353, y: -0.959792, z: -0.28033885, w: -0.013889717}
+      scale: {x: 0.9998289, y: 0.8549517, z: 1.1661475}
+    - name: DEF-f_middle.001.R
+      parentName: ORG-f_palm.002.R
+      position: {x: 7.683411e-11, y: 0.000066999906, z: -0.000006999469}
+      rotation: {x: 0.19045171, y: -0.000025752923, z: -0.000002771615, w: 0.98169655}
+      scale: {x: 0.99999917, y: 1.3608503, z: 0.7731517}
+    - name: DEF-f_middle.002.R
+      parentName: DEF-f_middle.001.R
+      position: {x: -5.820766e-11, y: 0.00006684994, z: -1.2805686e-10}
+      rotation: {x: 0.0726789, y: 0.000017540631, z: -0.0000019989554, w: 0.99735546}
+      scale: {x: 1.0000006, y: 0.94985825, z: 1.0614935}
+    - name: DEF-f_middle.002.R_end
+      parentName: DEF-f_middle.002.R
+      position: {x: -0, y: 0.0001030776, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.002.R
+      parentName: ORG-f_palm.002.R
+      position: {x: 1.16415315e-11, y: 0, z: -6.0535965e-11}
+      rotation: {x: 0.0000001912667, y: -0.0000016307455, z: -0.000000023981551, w: 1}
+      scale: {x: 0.9999992, y: 0.99999976, z: 1.000002}
+    - name: DEF-f_palm.002.R_end
+      parentName: DEF-f_palm.002.R
+      position: {x: -0, y: 0.00006699988, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-f_palm.003.R
+      parentName: DEF-f_toe.R
+      position: {x: -0.000028058015, y: 0.000018633156, z: 0.0000015966966}
+      rotation: {x: 0.28044686, y: -0.0069543133, z: -0.0016872581, w: 0.9598429}
+      scale: {x: 0.9999497, y: 0.85485625, z: 1.166147}
+    - name: DEF-f_ring.001.R
+      parentName: ORG-f_palm.003.R
+      position: {x: -0.000000070753735, y: 0.000067007626, z: 0.0000069991406}
+      rotation: {x: 0.0063673053, y: -0.9816494, z: 0.19048081, w: -0.006400804}
+      scale: {x: 0.99961436, y: 1.3612658, z: 0.77322525}
+    - name: DEF-f_ring.002.R
+      parentName: DEF-f_ring.001.R
+      position: {x: -2.3283063e-11, y: 0.000066849934, z: -5.5879353e-11}
+      rotation: {x: 0.07233079, y: 0.000014299059, z: -0.0000023706814, w: 0.99738073}
+      scale: {x: 1.000003, y: 0.95003307, z: 1.0612764}
+    - name: DEF-f_ring.002.R_end
+      parentName: DEF-f_ring.002.R
+      position: {x: -0, y: 0.0000972471, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-f_palm.003.R
+      parentName: ORG-f_palm.003.R
+      position: {x: -3.4924594e-11, y: 3.7252902e-11, z: -1.6298145e-11}
+      rotation: {x: -0.000000029802312, y: -0.00000044982863, z: 0.00000002072192, w: 1}
+      scale: {x: 1.0000015, y: 1.0000012, z: 1.0000021}
+    - name: DEF-f_palm.003.R_end
+      parentName: DEF-f_palm.003.R
+      position: {x: -0, y: 0.00006700756, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kissa_mesh.001
+      parentName: KITTY(Clone)
+      position: {x: 0.9019711, y: 0.0019388795, z: 0.35274258}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
